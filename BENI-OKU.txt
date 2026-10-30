@@ -1,0 +1,56 @@
+KONUYU ANLA — BULUT BİLİŞİM ÇALIŞMA ALANI
+
+Başlatma
+index.html dosyasını Chrome veya Edge ile aç. Kurulum veya internet gerekmez.
+Kaynak başvuru siteleri dış bağlantıdır; onlar için internet gerekir.
+Uygulama dosyaları ve kaynaklar klasörü birlikte tutulmalıdır.
+
+İlk çalışma
+“Çalışmaya başla” IaaS sorusunu açar. Orijinali dene, kendi içinde verilen
+konu anlatımını oku, çözümü ve şık analizini aç. Ardından beş üretilmiş
+alıştırmayı çöz. Cevap ve ayrıntılı çözümler başlangıçta gizlidir.
+Konu menüsü, sınav filtresi, terim/anlatım araması ve önceki/sonraki gezinme vardır.
+
+Kayıtlar
+Notlar, cevaplar, öz değerlendirmeler ve çalışma işaretleri tarayıcıda tutulur.
+Dosyayı başka bir konuma taşıma, başka tarayıcıya geçme veya tarayıcı verisini
+silme bu kayıtlara erişimi değiştirebilir. Önce “Çalışmamı yedekle” kullan.
+Geri yükleme aynı kimlikteki soru kayıtlarını yedekle değiştirir; diğerlerini korur.
+Açık uçlu cevaplara otomatik doğru/yanlış notu verilmez.
+
+Kapsam
+55 fotoğrafın görsel ders envanteri çıkarıldı.
+8 Bulut Bilişim fotoğrafı soru düzeyinde okundu.
+65 özgün soru/seçenek varyantı, bunlar için 325 alıştırma hazırlandı.
+2 okunamayan kaynak kaydı bu sayılara dahil edilmedi.
+Diğer derslerin ayrıntılı soruları ve anlatımları sonraki aşamadadır.
+
+Eksikler
+F16 = WhatsApp Image 2026-10-30 at 21.54.11.jpeg.
+A grubu 7 ve 8. sorular güvenilir okunamıyor; kesin cevap ve alıştırma yok.
+A8, B7 Azure senaryosuna benziyor; kesin tekrar sayılmadı.
+A9, B8 Cosmos DB sorusuyla ilişkilendirildi; okunaklı B8 metni kullanıldı.
+F12 sağ/sol kenarlarda kesik bölümler içeriyor; ilgili sorularda işaretli.
+F13 vize sayfasında 1–14 görülüyor; olası başka sayfa icat edilmedi.
+Başlıksız arka sayfa ilişkileri ve A grubunun tarihi kesin değil.
+F22/F43 aynı sayfanın iki fotoğrafıdır; ayrı sınav veya soru sayılmadı.
+Resmî cevap anahtarı bulunmadı. Fotoğraflardaki işaretler anahtar kabul edilmedi.
+Kusurlu/koşullu sorular kesin şıkla puanlanmaz; nedenleri kendi sayfalarında var.
+
+İçerik yaklaşımı
+Orijinal soru ile sonradan hazırlanan öğretim açıklaması ayrıdır.
+Aynı konunun farklı özgün varyantları ortak kazanımları farklı senaryo
+kimlikleriyle çalıştırabilir; çıkmış soru sayısını artırmak için kullanılmaz.
+Geçmiş sıklık gelecek sınav garantisi değildir.
+Klasik sorunun puanları kaynak bazında korunur: F27 35, F05/F34 30 puan.
+
+Denetim
+envanter.json: soru/kaynak eşleştirmeleri, dosya SHA-256 özetleri ve içerik.
+dogrulama.json: kapsam ve tarayıcı testi sonucu.
+Masaüstü, 360px ve 390px görünüm; kayıt, arama, cevap kontrolü ve yedek
+geri yükleme test edildi. Otomatik kontroller pedagojik doğruluğun kanıtı değildir.
+
+Yayın
+GitHub Pages yayını için main dalının kök dizini kullanılır.
+Canlı site ile yerel dosya farklı tarayıcı kayıt alanları kullanır. Yereldeki
+notlarını canlıya taşımak için önce yedek indirip canlı sitede geri yükle.

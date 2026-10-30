@@ -1,0 +1,56 @@
+{
+  "scope": "Bulut Bilişim; diğer derslerde yalnız görsel envanter",
+  "files": 55,
+  "records": 67,
+  "originalVariants": 65,
+  "exercises": 325,
+  "unreadable": [
+    {
+      "id": "BB-23F-A07-EKSIK",
+      "sources": [
+        {
+          "file": "F16",
+          "number": "7",
+          "exam": "Final · A (2023 olduğu değerlendiriliyor)",
+          "url": "kaynaklar/F16.jpeg"
+        }
+      ],
+      "reason": "Orijinal kök ve bütün seçenekler okunamıyor; kesin cevap ve özgün varyant kararı yok."
+    },
+    {
+      "id": "BB-23F-A08-EKSIK",
+      "sources": [
+        {
+          "file": "F16",
+          "number": "8",
+          "exam": "Final · A (2023 olduğu değerlendiriliyor)",
+          "url": "kaynaklar/F16.jpeg"
+        }
+      ],
+      "reason": "Özgün soru sayısına eklenmeyen belirsiz kayıt; B7 ile olası eşleşme."
+    }
+  ],
+  "checks": [
+    "55 dosyanın kaynak bağlantıları mevcut",
+    "Görülen 92 sınav/grup soru numarası bir kez eşlendi; tekrar fotoğrafları ayrı sayılmadı",
+    "65 özgün soru/varyantın her birinde tam 5 alıştırma var; 2 okunamayan kayıtta üretim yapılmadı",
+    "Soru ve alıştırma kimlikleri sabit ve benzersiz; bütün şıkların açıklaması ve geçerli cevap indisi var",
+    "A16/B17 anlamı değişen şık ayrı varyant; F22/F43 tekrar fotoğrafları tek soru kayıtlarına bağlı"
+  ],
+  "browser": [
+    "Masaüstü: tek soru görünümü, önceki/sonraki, çözüm gizleme/açma",
+    "Doğru test cevabı kontrolü, belirsiz soruda kesin puan vermeme, açık uçlu öz değerlendirme",
+    "Not/cevap/tekrar işareti sayfa yenilenince korunuyor",
+    "JSON yedek indirme ve boşaltılmış test kaydına geri yükleme uçtan uca geçti",
+    "Soru/anlatım/terim araması sonuç veriyor",
+    "360px ve 390px: yatay sayfa taşması yok; açılır menü ve seçenekler kullanılabilir",
+    "67 kaydın tamamı tarayıcıda render edildi; JavaScript hatası yok"
+  ],
+  "limitations": [
+    "Diğer derslerin ayrıntılı okuması henüz yapılmadı; Bulut Bilişim öncelikli aşama tamamlandı.",
+    "A7/A8 okunamıyor: özgünlük ve cevap belirlenmedi, alıştırma üretilmedi.",
+    "Başlıksız arka sayfa ilişkileri ve A grubu tarihi kesin değil.",
+    "Şıklar/kök kusurları ilgili kayıtlarda görünür; resmî cevap anahtarı yok.",
+    "Otomatik denetimler içerik alanı ve işlev kapsamını doğrular; pedagojik doğruluğun matematiksel kanıtı değildir."
+  ]
+}
