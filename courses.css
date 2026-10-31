@@ -1,4 +1,16 @@
 #question-list{max-height:none;overflow:visible}
+.exam-tabs{display:flex;flex-wrap:wrap;gap:6px;padding:6px;background:#eaf0e6;border-radius:11px;margin:0 0 24px;max-width:620px}
+.exam-tabs button{flex:1;white-space:nowrap;border:0;background:transparent;font-size:13px;padding:10px 14px}
+.exam-tabs button.active{background:var(--ink);color:#fff;box-shadow:0 2px 5px #18383c16}
+.exam-tabs small{display:inline-block;margin-left:5px;opacity:.75;font-weight:400}
+.exam-badges{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:15px 0}
+.exam-badge{padding:5px 9px;font-size:10px;font-weight:750;letter-spacing:.7px;border-radius:5px;background:#edf0ed;color:var(--muted)}
+.exam-badge.vize{color:#22553e;background:#e1efdf}
+.exam-badge.final{color:#785422;background:#f4e9d2}
+.exam-badge.unknown{color:#6b4a80;background:#eee4f4}
+.source-scope-label{font-size:12px;color:var(--muted);margin-bottom:12px}
+.exam-scope-note{border-left:4px solid var(--green)}
+.exam-gate h1{font-size:1.8rem}
 .course-question-group{border:1px solid var(--line);border-radius:9px;overflow:hidden;margin:10px 0;background:var(--white)}
 .course-group-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;padding:12px 10px;border:0;border-radius:0;text-align:left;font-size:12px;background:#eef2e9}
 .course-group-heading[aria-expanded=true]{background:var(--ink);color:white}
