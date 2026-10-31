@@ -1,9 +1,21 @@
 {
-  "scope": "Bulut Bilişim; diğer derslerde yalnız görsel envanter",
+  "scope": "Bulut Bilişim ve Veri Bilimi çalışma içerikleri hazır. Bilgisayar Mimarisi ve Programlama kaynakları envanter aşamasında.",
   "files": 55,
-  "records": 67,
-  "originalVariants": 65,
-  "exercises": 325,
+  "records": 167,
+  "originalVariants": 159,
+  "exercises": 795,
+  "courses": [
+    {
+      "course": "Bulut Bilişim",
+      "questions": 65,
+      "exercises": 325
+    },
+    {
+      "course": "Veri Bilimi",
+      "questions": 94,
+      "exercises": 470
+    }
+  ],
   "unreadable": [
     {
       "id": "BB-23F-A07-EKSIK",
@@ -28,29 +40,103 @@
         }
       ],
       "reason": "Özgün soru sayısına eklenmeyen belirsiz kayıt; B7 ile olası eşleşme."
+    },
+    {
+      "id": "VB-25B-01-EKSIK",
+      "sources": [
+        {
+          "file": "F42",
+          "number": "1",
+          "exam": "Veri Bilimi · 2025–2026 Güz · Final · B",
+          "url": "kaynaklar/F42.jpeg"
+        }
+      ],
+      "reason": "F42 sol kenarı kesik ve hareket bulanıklığı var; tam aktarım yapılamıyor."
+    },
+    {
+      "id": "VB-25B-02-EKSIK",
+      "sources": [
+        {
+          "file": "F42",
+          "number": "2",
+          "exam": "Veri Bilimi · 2025–2026 Güz · Final · B",
+          "url": "kaynaklar/F42.jpeg"
+        }
+      ],
+      "reason": "F42 sol kenarı kesik ve hareket bulanıklığı var; tam aktarım yapılamıyor."
+    },
+    {
+      "id": "VB-25B-03-EKSIK",
+      "sources": [
+        {
+          "file": "F42",
+          "number": "3",
+          "exam": "Veri Bilimi · 2025–2026 Güz · Final · B",
+          "url": "kaynaklar/F42.jpeg"
+        }
+      ],
+      "reason": "F42 sol kenarı kesik ve hareket bulanıklığı var; tam aktarım yapılamıyor."
+    },
+    {
+      "id": "VB-25B-04-EKSIK",
+      "sources": [
+        {
+          "file": "F42",
+          "number": "4",
+          "exam": "Veri Bilimi · 2025–2026 Güz · Final · B",
+          "url": "kaynaklar/F42.jpeg"
+        }
+      ],
+      "reason": "F42 sol kenarı kesik ve hareket bulanıklığı var; tam aktarım yapılamıyor."
+    },
+    {
+      "id": "VB-25B-05-EKSIK",
+      "sources": [
+        {
+          "file": "F42",
+          "number": "5",
+          "exam": "Veri Bilimi · 2025–2026 Güz · Final · B",
+          "url": "kaynaklar/F42.jpeg"
+        }
+      ],
+      "reason": "F42 sol kenarı kesik ve hareket bulanıklığı var; tam aktarım yapılamıyor."
+    },
+    {
+      "id": "VB-25B-06-EKSIK",
+      "sources": [
+        {
+          "file": "F42",
+          "number": "6",
+          "exam": "Veri Bilimi · 2025–2026 Güz · Final · B",
+          "url": "kaynaklar/F42.jpeg"
+        }
+      ],
+      "reason": "F42 sol kenarı kesik ve hareket bulanıklığı var; tam aktarım yapılamıyor."
     }
   ],
   "checks": [
-    "55 dosyanın kaynak bağlantıları mevcut",
-    "Görülen 92 sınav/grup soru numarası bir kez eşlendi; tekrar fotoğrafları ayrı sayılmadı",
-    "65 özgün soru/varyantın her birinde tam 5 alıştırma var; 2 okunamayan kayıtta üretim yapılmadı",
+    "55 dosyanın kaynak bağlantıları ve özgün şekil kırpımları mevcut",
+    "255 sınav/grup soru numarası bir kez eşlendi; tekrar fotoğrafları ayrı sayılmadı",
+    "159 özgün soru/varyantın her birinde tam 5 alıştırma var; 8 okunamayan kayıtta üretim yapılmadı",
     "Soru ve alıştırma kimlikleri sabit ve benzersiz; bütün şıkların açıklaması ve geçerli cevap indisi var",
-    "A16/B17 anlamı değişen şık ayrı varyant; F22/F43 tekrar fotoğrafları tek soru kayıtlarına bağlı"
+    "Bulut A16/B17 ve Veri Bilimi kNN 26/29 anlamı/sayısı değişen varyantlar ayrı tutuldu",
+    "Veri Bilimi 2024–2025 vize 1–11 ve 2025–2026 B7 kaynak eksikleri ayrıca raporlandı"
   ],
   "browser": [
-    "Masaüstü: tek soru görünümü, önceki/sonraki, çözüm gizleme/açma",
-    "Doğru test cevabı kontrolü, belirsiz soruda kesin puan vermeme, açık uçlu öz değerlendirme",
-    "Not/cevap/tekrar işareti sayfa yenilenince korunuyor",
-    "JSON yedek indirme ve boşaltılmış test kaydına geri yükleme uçtan uca geçti",
-    "Soru/anlatım/terim araması sonuç veriyor",
-    "360px ve 390px: yatay sayfa taşması yok; açılır menü ve seçenekler kullanılabilir",
-    "67 kaydın tamamı tarayıcıda render edildi; JavaScript hatası yok"
+    "Ders bazlı açılır soru bölümleri: diğer ders soruları karışmıyor",
+    "Ders değişiminde konu/sınav/arama filtreleri sıfırlanıyor",
+    "Önceki/sonraki aynı derste kalıyor",
+    "Eski Bulut Bilişim kayıtları korundu",
+    "Veri Bilimi cevap kontrolü, gizli çözümler ve not kaydı çalışıyor",
+    "İki dersli yedek indirme/geri yükleme geçti",
+    "Kod, tablo ve şekiller 360px/390px genişlikte taşmıyor",
+    "167 kayıt tarayıcıda açıldı; JavaScript hatası yok"
   ],
   "limitations": [
-    "Diğer derslerin ayrıntılı okuması henüz yapılmadı; Bulut Bilişim öncelikli aşama tamamlandı.",
-    "A7/A8 okunamıyor: özgünlük ve cevap belirlenmedi, alıştırma üretilmedi.",
-    "Başlıksız arka sayfa ilişkileri ve A grubu tarihi kesin değil.",
-    "Şıklar/kök kusurları ilgili kayıtlarda görünür; resmî cevap anahtarı yok.",
-    "Otomatik denetimler içerik alanı ve işlev kapsamını doğrular; pedagojik doğruluğun matematiksel kanıtı değildir."
+    "Bilgisayar Mimarisi ve Programlama henüz yalnız envanterde.",
+    "Bulut A7/A8 ve Veri Bilimi F42 B1–6 tam okunamıyor; alıştırma üretilmedi.",
+    "Veri Bilimi 2024–2025 vize 1–11 ve 2025–2026 B7 kaynakları görünmüyor.",
+    "Başlıksız ön/arka ilişkileri kesin değil; soru kusurları ilgili kayıtlarda açıklanır.",
+    "Otomatik denetim içerik kapsamı/işlevi doğrular; her öğretim iddiasının matematiksel kanıtı değildir."
   ]
 }
