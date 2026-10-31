@@ -1,5 +1,5 @@
 {
-  "scope": "Bulut Bilişim ve Veri Bilimi çalışma içerikleri hazır. Bilgisayar Mimarisi ve Programlama kaynakları envanter aşamasında.",
+  "scope": "Bulut Bilişim ve Veri Bilimi çalışma içerikleri hazır. Bilgisayar Mimarisi kaynakları envanter aşamasında.",
   "files": 55,
   "records": 167,
   "originalVariants": 159,
@@ -133,7 +133,7 @@
     "167 kayıt tarayıcıda açıldı; JavaScript hatası yok"
   ],
   "limitations": [
-    "Bilgisayar Mimarisi ve Programlama henüz yalnız envanterde.",
+    "Bilgisayar Mimarisi henüz yalnız envanterde.",
     "Bulut A7/A8 ve Veri Bilimi F42 B1–6 tam okunamıyor; alıştırma üretilmedi.",
     "Veri Bilimi 2024–2025 vize 1–11 ve 2025–2026 B7 kaynakları görünmüyor.",
     "Başlıksız ön/arka ilişkileri kesin değil; soru kusurları ilgili kayıtlarda açıklanır.",

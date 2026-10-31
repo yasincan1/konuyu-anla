@@ -19,7 +19,7 @@ Geri yükleme aynı kimlikteki soru kayıtlarını yedekle değiştirir; diğerl
 Açık uçlu cevaplara otomatik doğru/yanlış notu verilmez.
 
 Kapsam
-55 fotoğrafın görsel ders envanteri çıkarıldı.
+53 fotoğrafın görsel ders envanteri çıkarıldı.
 8 Bulut Bilişim ve 41 Veri Bilimi fotoğrafı soru düzeyinde incelendi.
 Bulut Bilişim: 65 özgün soru/varyant ve 325 alıştırma.
 Veri Bilimi: 94 özgün soru/varyant ve 470 alıştırma.
@@ -27,7 +27,7 @@ Veri Bilimi: 94 özgün soru/varyant ve 470 alıştırma.
 Veri Bilimi 2024–2025 vize 1–11 sayfası bulunamadı; 2025–2026 B7 görünmüyor.
 Veri Bilimi F42’de B1–6 tam okunamadığı için uydurulmadı.
 Her dersin soru listesi, filtreleri, ilerlemesi ve kaldığın yer ayrıdır.
-Bilgisayar Mimarisi ve Programlama henüz envanter aşamasındadır.
+Bilgisayar Mimarisi henüz envanter aşamasındadır.
 
 Eksikler
 F16 = WhatsApp Image 2026-10-30 at 21.54.11.jpeg.

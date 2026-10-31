@@ -2,15 +2,6 @@
   "version": 1,
   "inventory": [
     {
-      "id": "F01",
-      "file": "WhatsApp Image 2026-10-30 at 21.54.06 (1).jpeg",
-      "url": "kaynaklar/F01.jpeg",
-      "sha256": "9e1a53cc57fbc0993864a822d6b8afeb902a063ed448ad2b79a67ef469ac51d9",
-      "course": "Programlama (ders adı doğrulanmadı)",
-      "status": "Görsel envanter; ayrıntılı soru aktarımı sonraki ders aşamasında",
-      "notes": "C# ADO.NET, sayfa 2. Ders başlığı görünmüyor; tam ders adı varsayılmadı."
-    },
-    {
       "id": "F02",
       "file": "WhatsApp Image 2026-10-30 at 21.54.06 (2).jpeg",
       "url": "kaynaklar/F02.jpeg",
@@ -207,15 +198,6 @@
       "course": "Veri Bilimi",
       "status": "Sayfa okunarak soru eşleştirmesi yapıldı",
       "notes": "Veri Bilimi · 2022–2023 Güz · Vize · A: 1–11"
-    },
-    {
-      "id": "F24",
-      "file": "WhatsApp Image 2026-10-30 at 21.54.26.jpeg",
-      "url": "kaynaklar/F24.jpeg",
-      "sha256": "1815bf2e527de26543d71a362560d5a68f30a3b2ad592087d8e62ff711f62ab6",
-      "course": "Programlama (ders adı doğrulanmadı)",
-      "status": "Görsel envanter; ayrıntılı soru aktarımı sonraki ders aşamasında",
-      "notes": "C# LINQ, sayfa 3. F01 ile sayfa devamlılığı olası; başlık yok."
     },
     {
       "id": "F25",
@@ -33541,7 +33523,7 @@
     "Veri Bilimi · 2025–2026 Güz · Final · A",
     "Veri Bilimi · 2025–2026 Güz · Final · B"
   ],
-  "scope": "Bulut Bilişim ve Veri Bilimi çalışma içerikleri hazır. Bilgisayar Mimarisi ve Programlama kaynakları envanter aşamasında.",
+  "scope": "Bulut Bilişim ve Veri Bilimi çalışma içerikleri hazır. Bilgisayar Mimarisi kaynakları envanter aşamasında.",
   "sources": [
     {
       "id": "trango",
