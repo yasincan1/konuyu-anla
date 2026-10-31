@@ -1,4 +1,5 @@
 #question-list{max-height:none;overflow:visible}
+.paper-picker,.paper-labels{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.paper-picker button{font-size:12px;padding:7px 10px}.paper-labels .selected{background:var(--ink);color:white}.paper-note-label{display:block;margin-top:20px}.paper-photo{margin-top:20px;max-width:100%;overflow:auto;background:#e8e8e3}.paper-photo img{display:block;width:100%;height:auto}.paper-note-label+textarea{width:100%;box-sizing:border-box;margin:8px 0}.paper-picker button,.paper-labels button{white-space:normal}.paper-photo+*{max-width:100%}
 .exam-tabs{display:flex;flex-wrap:wrap;gap:6px;padding:6px;background:#eaf0e6;border-radius:11px;margin:0 0 24px;max-width:620px}
 .exam-tabs button{flex:1;white-space:nowrap;border:0;background:transparent;font-size:13px;padding:10px 14px}
 .exam-tabs button.active{background:var(--ink);color:#fff;box-shadow:0 2px 5px #18383c16}
