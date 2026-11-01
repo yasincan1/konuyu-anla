@@ -1,0 +1,544 @@
+### **BÖLÜM 1.1: BULUT BİLİŞİME GİRİŞ**
+
+---
+
+#### **1. Bulut Bilişimin Tanımı**
+
+- **Bulut Bilişim:** İnternet üzerinden erişilen sunucular, veri depolama, veri tabanı, ağ, yazılım ve analitik gibi bilişim hizmetlerinin tümüdür[1].
+- **Temel Amaç:** Veri ve programları yerel sabit diskte (PC'de) tutmak yerine, internet üzerinden uzaktaki sunucularda çalıştırmak ve saklamaktır[.
+
+---
+
+#### **2. Tarihsel Gelişim (Önemli Yıllar ve Kişiler)**
+
+- **1950'ler:** İlk fikir; anabilgisayarlara (mainframe) bağlı terminallerle paylaşımlı işlem gücü kullanımı[1].
+- **1960'lar (John McCarthy):** *"Bilişim bir gün elektrik ve su gibi genel bir hizmet (utility) haline gelecektir"* öngörüsü[1].
+- **1999 (Salesforce):** Kurumsal uygulamaları internet üzerinden (SaaS) sunan ilk büyük adım[1].
+- **2006 (Amazon - AWS):** Modern bulut bilişimin başlangıcı kabul edilen Elastic Compute Cloud (EC2) hizmetinin sunulması[1].
+
+---
+
+#### **3. Bulut Bilişimin Temel Özellikleri**
+
+1. **İsteğe Bağlı Self-Servis (On-Demand Self-Service):** İnsan müdahalesine gerek kalmadan panelden sunucu veya depolama açabilme[1].
+2. **Geniş Ağ Erişimi (Broad Network Access):** İnternet bağlantısı olan her cihazdan (mobil, PC, tablet) her an erişim[1].
+3. **Kaynak Havuzu (Resource Pooling):** Sunucu kaynaklarının birden çok müşteriye paylaştırılarak dinamik atanması[1].
+4. **Hızlı Esneklik (Rapid Elasticity):** Talebe göre sistem kapasitesinin anında büyütülüp küçültülebilmesi[1].
+5. **Ölçülen Hizmet (Measured Service / Pay-as-you-go):** Sabit yatırım yerine yalnızca kullanılan kaynak miktarına (saat, GB vb.) göre ücret ödeme[1].
+
+### **BÖLÜM 1.2: BULUT BİLİŞİMİN TEMEL KAVRAMLARI VE BİLEŞENLERİ**
+
+---
+
+#### **1. Bulut Bilişimin 3 Temel Bileşeni**
+
+- **a) İstemci (Client):** Kullanıcıların bulut uygulamalarına ve verilerine erişmek için kullandığı donanım veya yazılımlardır[1]. Bilgisayarlar, akıllı telefonlar, tabletler ve web tarayıcıları bu gruba girer[1].
+- **b) Dağıtık Sunucular (Distributed Servers):** Tek bir merkez yerine farklı coğrafi konumlarda bulunan, internet üzerinden birbirine bağlı ve iş yükünü paylaşarak çalışan sunuculardır[1]. Kullanıcı sunucunun nerede olduğunu bilmeden işlemlerini kesintisiz yürütür[1].
+- **c) Veri Depolama (Data Storage):** Verilerin yerel diskler yerine internet üzerinden erişilen uzak veri merkezlerinde güvenli ve yedekli olarak saklanmasıdır[1].
+
+---
+
+#### **2. Sunulan Temel Hizmet Modelleri (SPI Modeli)**
+
+Bulut bilişimde hizmetler katmanlara göre 3 temel modelde sunulur[1]:
+
+1. **SaaS (Software as a Service - Hizmet Olarak Yazılım):**
+- Kullanıcıya doğrudan internet üzerinden çalışan hazır yazılımlar sunulur[1].
+- Kurulum, bakım ve güncelleme sağlayıcıya aittir[1].
+- *Örnekler:* Google Drive/Gmail, Microsoft Office 365, Salesforce[1].
+1. **PaaS (Platform as a Service - Hizmet Olarak Platform):**
+- Geliştiricilere kendi uygulamalarını yazıp çalıştırabilecekleri geliştirme ortamı (çalışma zamanı, veri tabanı, işletim sistemi) sunulur[1].
+- *Örnekler:* Google App Engine, AWS Elastic Beanstalk, Windows Azure[1].
+1. **IaaS (Infrastructure as a Service - Hizmet Olarak Altyapı):**
+- Temel donanım ve bilgi işlem kaynaklarının (işlemci, bellek, depolama, ağ) sanallaştırılarak kiralandığı en alt katmandır[1].
+- *Örnekler:* Amazon EC2, Rackspace, GoGrid[1].
+
+---
+
+#### **3. Bulut Dağıtım (Çözüm) Modelleri**
+
+Bulut altyapısının kimin kullanımına açık olduğuna göre 4 model bulunur[1]:
+
+- **Genel Bulut (Public Cloud):** Herkese açık, internet üzerinden genel erişime sunulan ve kaynakları paylaşımlı kullanılan modeldir[1].
+- **Özel Bulut (Private Cloud):** Yalnızca tek bir kuruma veya şirkete tahsis edilmiş, yüksek güvenlikli modeldir[1].
+- **Karma / Hibrit Bulut (Hybrid Cloud):** Genel ve özel bulutun birlikte kullanıldığı, verilerin ihtiyaca göre aralarında taşınabildiği modeldir[1].
+- **Topluluk Bulutu (Community Cloud):** Ortak misyon veya güvenlik gereksinimlerine sahip belirli kurumların (örneğin bankalar veya üniversiteler) ortaklaşa kullandığı modeldir[1].
+
+### **BÖLÜM 1.3: BULUT BİLİŞİMİN AVANTAJLARI VE DEZAVANTAJLARI**
+
+---
+
+#### **1. Bulut Bilişimin Avantajları (Faydaları)**
+
+- **Düşük Donanım Maliyeti:** Şirket içinde pahalı sunucular, soğutma sistemleri ve yedek donanım kurma zorunluluğunu ortadan kaldırır[1].
+- **Zaman Avantajı:** Yazılım ve sunucu kurulum süreçleri dakikalar içine iner; bakım ve donanım arızalarıyla vakit kaybedilmez[1].
+- **Düşük Yazılım Maliyeti:** Lisansları tek tek satın almak yerine ihtiyaç duyuldukça SaaS olarak kiralanır[1].
+- **Sonsuz Esneklik (Ölçeklenebilirlik):** İhtiyaç duyulduğunda işlem gücü ve depolama anında artırılır veya azaltılır[1].
+- **Uyum/Taşınabilirlik (Platform Bağımsızlığı):** İnternet tarayıcısı olan herhangi bir işletim sistemi (Windows, Linux, macOS, mobil) üzerinden doğrudan çalışır[1].
+- **Güvenlik ve Güncelleme:** Veriler profesyonel veri merkezlerinde korunur; yazılımlar ve güvenlik yamaları arka planda otomatik güncellenir[1].
+- **Gelişmiş İşbirliği:** Farklı konumlardaki çalışanlar aynı belge ve proje üzerinde eş zamanlı çalışabilir[1].
+- **Yönetilebilirlik:** BT altyapısı tek bir web arayüzünden merkezi olarak izlenip yönetilebilir[1].
+- **Erişim Kolaylığı:** İnternetin olduğu her yerden tüm verilere ve programlara kesintisiz erişim sağlanır[1].
+- **Felaket Kurtarma (Disaster Recovery):** Yerel bir yangın, su baskını veya donanım bozulmasında veriler farklı coğrafi merkezlerde yedekli tutulduğu için kaybolmaz[1].
+- **Stratejik Güç:** KOBİ'lerin ve küçük girişimlerin de büyük şirketlerle aynı teknolojik altyapıyı kullanabilmesini sağlar[1].
+- **Tasarruf:** Elektrik, soğutma, fiziksel alan ve BT personeli giderlerini minimuma indirir[1].
+
+---
+
+#### **2. Bulut Bilişimin Dezavantajları (Riskleri ve Zorlukları)**
+
+- **Güvenlik ve Gizlilik:** Verilerin üçüncü taraf şirketlerin sunucularında tutulması nedeniyle dış saldırılar veya veri sızıntısı endişesi doğar[1].
+- **Sistem Güncellemeleri:** Sağlayıcı tarafındaki plansız veya ani güncellemeler şirket içi entegre yazılımlarla geçici uyumsuzluk yaratabilir[1].
+- **Firma Güvenilirliği:** Seçilen sağlayıcının iflas etmesi, kapanması veya hizmeti durdurması durumunda sistemlerin ortada kalma riski vardır[1].
+- **Fiziksel ve Planma Kriterleri:** Verilerin fiziksel olarak hangi ülkede tutulduğuna dair yasal ve regülatif (KVKK vb.) uyum zorlukları[1].
+- **Sabit İnternet Bağımlılığı ve Ağ Hızı:** İnternet bağlantısı kesildiğinde hizmete erişilemez; yavaş internet performansı doğrudan düşürür[1].
+- **Hizmet Kesintileri (Downtime):** Sağlayıcı kaynaklı genel elektrik veya ağ kesintilerinde kullanıcının yapabileceği hiçbir müdahale yoktur[1].
+- **Satıcı Kilidi (Vendor Lock-in):** Bir bulut sağlayıcısından (örn. AWS) diğerine (örn. Azure) geçmek; format, mimari ve taşıma maliyetleri nedeniyle oldukça zordur[1].
+- **Uygulamanın Yavaş Çalışması:** Yüksek işlem gücü ve çok düşük gecikme (latency) gerektiren yerel uygulamalarda ağ gecikmesi sorun yaratabilir[1].
+- **Sınırlı Kontrol:** Altyapının tüm kontrolü sağlayıcıdadır; kullanıcı sunucu donanımına doğrudan müdahale edemez[1].
+- **Yazılım Lisanslama:** Bazı geleneksel lisanslama modelleri bulut ortamlarına doğrudan uyarlanamayabilir veya ek maliyet çıkarabilir[1].
+
+### **BÖLÜM 2.1: TEKNOLOJİ VE BİLİŞİM SİSTEMLERİ**
+
+---
+
+#### **1. Bilişim Sisteminin Tanımı**
+
+- **Bilişim Sistemi:** İnsanların ihtiyaç duyduğu bilgiyi üretmek, depolamak, işlemek, oluşturmak ve dağıtmak amacıyla donanım, yazılım ve iletişim araçlarını bir arada kullanan sistemlerdir[1].
+
+---
+
+#### **2. Bilişim Sistemlerinin 5 Temel Bileşeni**
+
+1. **Donanım (Hardware):** Bilgisayarı oluşturan fiziksel parçalardır (işlemci, bellek, klavye, ekran vb.)[1].
+2. **Yazılım (Software):** Donanımın çalışmasını sağlayan ve kullanıcı işlemlerini yürüten komutlar, işletim sistemleri ve programlardır[1].
+3. **Veri (Data):** Bilişim sistemlerinin ham maddesidir; işlenerek anlamlı bilgiye (enformasyon) dönüştürülür[1].
+4. **Ağ (Network / İletişim):** Bilgisayarların ve sistemlerin birbiriyle veri alışverişi yapmasını sağlayan kablolu veya kablosuz bağlantı altyapısıdır (internet, intranet)[1].
+5. **İnsan (Kullanıcı / Uzman):** Sistemi tasarlayan, yöneten, bakımını yapan ve nihai olarak kullanan en temel unsurdur[1].
+
+---
+
+#### **3. Bilişim Sistemlerinin Kullanıldığı Başlıca Alanlar**
+
+- **Mesleki Yaşam:** İş takibi, muhasebe, müşteri yönetimi ve ofis otomasyonu[1].
+- **Eğitim:** Uzaktan eğitim, dijital içerikler, öğrenci bilgi sistemleri ve e-öğrenme platformları[1].
+- **Sağlık:** Hasta takip sistemleri, merkezi randevu sistemleri (MHRS), dijital tahlil ve görüntüleme sonuçları[1].
+- **İletişim:** E-posta, anlık mesajlaşma, görüntülü konuşma ve sosyal ağlar[1].
+- **Bankacılık:** İnternet bankacılığı, ATM ağları, EFT/Havale ve kartlı ödeme altyapıları[1].
+- **Mühendislik ve Mimarlık:** CAD (bilgisayar destekli tasarım), 3D modelleme ve simülasyon yazılımları[1].
+
+---
+
+#### **4. Bulut Bilişim Uygulama Alanları**
+
+- **Ticari Uygulamalar:** ERP (Kurumsal Kaynak Planlama), CRM (Müşteri İlişkileri) ve e-ticaret altyapıları[1].
+- **Sağlık Uygulamaları:** Hastane kayıtlarının bulutta tutulması ve hekimler arası dosya paylaşımı[1].
+- **Eğitim Uygulamaları:** Sanal sınıflar, bulut tabanlı ders materyalleri ve sınav sistemleri[1].
+- **Eğlence ve Kültür:** Müzik ve video akış platformları, çevrimiçi bulut oyun servisleri[1].
+- **Mobil Uygulamalar:** Akıllı telefonlardaki verilerin otomatik olarak bulut sunucularına yedeklenmesi ve senkronizasyonu[1].
+
+### **BÖLÜM 2.2: BULUT BİLİŞİM MİMARİSİ VE MALİYET**
+
+---
+
+#### **1. Bulut Bilişim Mimarisi: 2 Temel Kısım**
+
+Bulut bilişim mimarisi iki ana bölümden oluşur[1]:
+
+- **a) Ön Yüz (Front-End):**
+    - Kullanıcının veya istemcinin gördüğü ve doğrudan etkileşime girdiği taraftır[1].
+    - Bulut sistemine erişmek için gereken istemci aygıtları (PC, tablet, telefon vb.), web tarayıcıları ve arayüz uygulamalarını kapsar[1].
+- **b) Arka Yüz (Back-End):**
+    - Kullanıcının görmediği, sistemin arkasında çalışan bulut sağlayıcısına ait taraftır[1].
+    - Sunucular, depolama sistemleri, sanal makineler, güvenlik mekanizmaları (güvenlik duvarları), işletim sistemleri ve trafik kontrol protokollerinden oluşur[1].
+
+---
+
+#### **2. Klasik BT (On-Premise) ve Bulut BT Karşılaştırması**
+
+- **Klasik BT Altyapısı (Geleneksel Yapı):**
+    - Şirket içinde fiziksel bilgisayarlar, yerel sunucular, switch'ler, UPS (kesintisiz güç kaynakları) ve iklimlendirme/soğutma sistemleri kurulmasını gerektirir[1].
+    - Donanım arızaları, fiziksel güvenlik, bakım-onarım ve işletim masrafları tamamen kurumun kendi sorumluluğundadır[1].
+- **Bulut BT Altyapısı:**
+    - Şirket içinde donanım barındırma zorunluluğunu kaldırır; altyapı hizmet sağlayıcısının merkezindedir[1].
+    - Yatırım maliyeti (CapEx) yerine operasyonel maliyete (OpEx) geçilir[1][2].
+- **Maliyet Piramidi (Buzdağı Analojisi):**
+    - **Klasik BT'de Görünmeyen Maliyetler (%91):** İlk satın alma bedeli buzdağının sadece görünen yüzüdür; asıl büyük pay bakım, personel, enerji, yedekleme ve güncelleme gibi görünmeyen giderlere gider[1].
+    - **Bulut BT'de:** Gizli işletim ve bakım maliyetleri ortadan kalkar; sadece kullanılan kaynağın faturası ödenir[1].
+
+---
+
+#### **3. Yaygın Kullanılan Bulut Depolama Örnekleri**
+
+Slaytta yer alan başlıca tüketici bulut depolama servisleri[1][3]:
+
+- **Dropbox**[1][3]
+- **Google Drive**[1][3]
+- **SkyDrive / OneDrive** (Microsoft)[1][3]
+- **iCloud** (Apple)[1][3]
+- **Yandex.Disk**
+
+### **BÖLÜM 2.2: BULUT BİLİŞİM MİMARİSİ VE MALİYET**
+
+---
+
+#### **1. Bulut Bilişim Mimarisi: 2 Temel Kısım**
+
+Bulut bilişim mimarisi iki ana bölümden oluşur[1]:
+
+- **a) Ön Yüz (Front-End):**
+    - Kullanıcının veya istemcinin gördüğü ve doğrudan etkileşime girdiği taraftır[1].
+    - Bulut sistemine erişmek için gereken istemci aygıtları (PC, tablet, telefon vb.), web tarayıcıları ve arayüz uygulamalarını kapsar[1].
+- **b) Arka Yüz (Back-End):**
+    - Kullanıcının görmediği, sistemin arkasında çalışan bulut sağlayıcısına ait taraftır[1].
+    - Sunucular, depolama sistemleri, sanal makineler, güvenlik mekanizmaları (güvenlik duvarları), işletim sistemleri ve trafik kontrol protokollerinden oluşur[1].
+
+---
+
+#### **2. Klasik BT (On-Premise) ve Bulut BT Karşılaştırması**
+
+- **Klasik BT Altyapısı (Geleneksel Yapı):**
+    - Şirket içinde fiziksel bilgisayarlar, yerel sunucular, switch'ler, UPS (kesintisiz güç kaynakları) ve iklimlendirme/soğutma sistemleri kurulmasını gerektirir[1].
+    - Donanım arızaları, fiziksel güvenlik, bakım-onarım ve işletim masrafları tamamen kurumun kendi sorumluluğundadır[1].
+- **Bulut BT Altyapısı:**
+    - Şirket içinde donanım barındırma zorunluluğunu kaldırır; altyapı hizmet sağlayıcısının merkezindedir[1].
+    - Yatırım maliyeti (CapEx) yerine operasyonel maliyete (OpEx) geçilir[1][2].
+- **Maliyet Piramidi (Buzdağı Analojisi):**
+    - **Klasik BT'de Görünmeyen Maliyetler (%91):** İlk satın alma bedeli buzdağının sadece görünen yüzüdür; asıl büyük pay bakım, personel, enerji, yedekleme ve güncelleme gibi görünmeyen giderlere gider[1].
+    - **Bulut BT'de:** Gizli işletim ve bakım maliyetleri ortadan kalkar; sadece kullanılan kaynağın faturası ödenir[1].
+
+---
+
+#### **3. Yaygın Kullanılan Bulut Depolama Örnekleri**
+
+Slaytta yer alan başlıca tüketici bulut depolama servisleri[1][3]:
+
+- **Dropbox**[1][3]
+- **Google Drive**[1][3]
+- **SkyDrive / OneDrive** (Microsoft)[1][3]
+- **iCloud** (Apple)[1][3]
+- **Yandex.Disk**[1][3]
+
+---
+
+Okuyup bitirdiğinde haber ver, doğrudan **2.3. Bulut Bilişim Modelleri (Dağıtım ve Hizmet Modelleri)** ile devam edelim!
+
+geç
+
+### **BÖLÜM 2.3: BULUT BİLİŞİM MODELLERİ**
+
+Bulut bilişim iki temel sınıflandırmaya göre incelenir: **Konumlanma (Dağıtım) Modelleri** ve **Hizmet Modelleri**[1].
+
+---
+
+#### **1. Konumlanma / Dağıtım Modellerine Göre**
+
+- **a) Genel Bulut (Public Cloud):**
+    - Herkese açık bir ağ üzerinden genel kullanıma sunulan modeldir[2].
+    - Sağlayıcıya ait dev altyapı çok sayıda müşteri tarafından paylaşımlı olarak kullanılır[1][2].
+    - *Avantajları:* Düşük ilk yatırım maliyeti, bakım yükünün olmaması, sınırsız esneklik[2].
+- **b) Özel Bulut (Private Cloud):**
+    - Yalnızca tek bir şirkete/kuruma tahsis edilmiş özel altyapıdır[1][2].
+    - Donanım kurum içinde (on-premise) veya üçüncü taraf bir sağlayıcıda bulunabilir[1][2].
+    - *Avantajları:* Üst düzey güvenlik, veriler üzerinde tam denetim ve kuruma özel yapılandırma[2].
+- **c) Karma / Melez Bulut (Hybrid Cloud):**
+    - En az iki farklı bulut modelinin (genellikle Özel + Genel) birbirine bağlanarak birlikte çalışmasıdır[1][2].
+    - Kritik ve gizli veriler özel bulutta tutulurken, yüksek işlem gücü veya genel uygulamalar için genel bulut kullanılır[1][2].
+    - *Avantajları:* Esneklik, kontrol ve maliyet optimizasyonu[2].
+- **d) Topluluk Bulutu (Community Cloud):**
+    - Ortak hedeflere, güvenlik gereksinimlerine veya yasal standartlara sahip belirli kurumların (örn. bankalar, kamu kurumları) paylaştığı modeldir[1][2].
+
+---
+
+#### **2. Hizmet Modellerine Göre (SPI Modeli)**
+
+- **a) IaaS (Infrastructure as a Service - Hizmet Olarak Altyapı):**
+    - En alt katmandır; işlemci (CPU), RAM, depolama ve ağ gibi temel bilgi işlem kaynakları sanallaştırılarak kiralanır[1].
+    - Sağlayıcı sadece fiziksel donanım ve sanallaştırmayı yönetir; işletim sistemi, veritabanı ve uygulamalar kullanıcının sorumluluğundadır[1].
+    - *Örnekler:* Amazon EC2, Rackspace, GoGrid[1][3].
+- **b) PaaS (Platform as a Service - Hizmet Olarak Platform):**
+    - Geliştiricilere uygulama yazma, test etme ve dağıtma imkanı sağlayan hazır çalışma ortamıdır[1].
+    - Sağlayıcı altyapıyı, işletim sistemini ve veri tabanını yönetir; kullanıcı sadece kendi yazdığı uygulama kodu ve verisinden sorumludur[1].
+    - *Örnekler:* Google App Engine, AWS Elastic Beanstalk, Windows Azure[1][3].
+- **c) SaaS (Software as a Service - Hizmet Olarak Yazılım):**
+    - En üst katmandır; doğrudan web tarayıcısı üzerinden çalışan son kullanıcıya yönelik hazır yazılımlardır[1].
+    - Altyapı, işletim sistemi, bakım ve güncellemeler tamamen sağlayıcıya aittir; kullanıcı sadece yazılımı tüketir[1].
+    - *Örnekler:* Microsoft Office 365, Google Drive/Gmail, Salesforce[1][3].
+
+---
+
+#### **3. Sorumluluk Paylaşımı Özeti (Kim Neyi Yönetir?)**
+
+- **Geleneksel BT (On-Premise):** Her şeyi (Donanım + İşletim Sistemi + Yazılım) **kullanıcı** yönetir[1].
+- **IaaS:** Donanım ve Sanallaştırmayı **sağlayıcı**; İşletim Sistemi ve Uygulamayı **kullanıcı** yönetir[1].
+- **PaaS:** Donanım, İşletim Sistemi ve Çalışma Zamanını **sağlayıcı**; sadece Uygulama ve Veriyi **kullanıcı** yönetir[1].
+- **SaaS:** Baştan sona tüm katmanları **sağlayıcı** yönetir[1].
+
+### **BÖLÜM 3.1: SANALLAŞTIRMA TEKNOLOJİLERİ**
+
+---
+
+#### **1. Sanallaştırma Nedir?**
+
+- **Sanallaştırma (Virtualization):** Fiziksel bir donanım kaynağının (sunucu, depolama aygıtı, ağ veya işletim sistemi) mantıksal parçalara bölünerek birden fazla bağımsız ortam gibi çalıştırılmasıdır[1].
+- **Temel Amaç:** Tek bir fiziksel bilgisayar üzerinde aynı anda birbirinden bağımsız birden fazla işletim sistemini ve uygulamayı çalıştırmaktır[1].
+- **Sanal Makine (Virtual Machine - VM):** Gerçek bir bilgisayar gibi çalışan, kendine ait sanal işlemcisi (CPU), belleği (RAM) ve diski bulunan yazılımsal bilgisayardır[1].
+
+---
+
+#### **2. Sanal Makine Türleri**
+
+- **Sistem Sanal Makineleri:** Fiziksel makinenin donanımını tamamen taklit ederek üzerinde eksiksiz bir işletim sistemi çalıştıran sistemlerdir (Örn: VMware, VirtualBox)[1].
+- **Proses (Süreç) Sanal Makineleri:** Yalnızca tek bir programı veya süreci çalıştırmak için oluşturulan platform bağımsız ortamlardır (Örn: Java Sanal Makinesi - JVM, .NET CLR)[1].
+
+---
+
+#### **3. Sanallaştırma Türleri**
+
+- **Donanım (Sunucu) Sanallaştırma:** Bir fiziksel sunucunun mantıksal sunuculara bölünerek kaynakların tam verimle kullanılmasıdır[1].
+- **Ağ Sanallaştırma:** Fiziksel ağ donanımlarının mantıksal sanal ağlara ayrılması veya birleştirilmesidir[1].
+- **Masaüstü Sanallaştırma:** Kullanıcı masaüstü işletim sisteminin merkezi bir sunucuda çalıştırılıp uzaktaki istemcilere aktarılmasıdır[1].
+- **Uygulama Sanallaştırma:** Bir uygulamanın yerel işletim sistemine kurulmadan, izole bir kapsül içinde doğrudan sunucudan çalıştırılmasıdır[1].
+
+---
+
+#### **4. Hipervizör (Hypervisor / Sanal Makine Monitörü)**
+
+Fiziksel donanım ile sanal makineler arasında yer alan, sanal makinelerin oluşturulmasını, yönetilmesini ve donanım kaynaklarını paylaşmasını sağlayan yazılım katmanıdır[1]. İki ana türe ayrılır:
+
+- **Tip-1 (Bare-Metal / Çıplak Metal):**
+    - Doğrudan fiziksel donanımın üzerine kurulur; arada herhangi bir ana işletim sistemi yoktur[1].
+    - Yüksek performanslı ve kurumsal sistemler için uygundur[1].
+    - *Örnekler:* VMware ESXi, Microsoft Hyper-V, Citrix XenServer[1].
+- **Tip-2 (Hosted / Barındırılan):**
+    - Mevcut bir işletim sisteminin (Windows, Linux, macOS) üzerine bir uygulama gibi kurulur[1].
+    - Performansı Tip-1'e göre daha düşüktür; test ve kişisel kullanım için uygundur[1].
+    - *Örnekler:* VMware Workstation, Oracle VirtualBox[1].
+
+---
+
+#### **5. Sanallaştırmanın Avantajları**
+
+- **Yüksek Kaynak Kullanımı:** Atıl duran sunucu kapasitelerini (%10-15'ten %70-80'lere) çıkarır[1].
+- **Düşük Donanım ve Enerji Maliyeti:** Daha az fiziksel sunucu, daha az elektrik ve soğutma gideri sağlar[1].
+- **Merkezi Yönetim ve Hızlı Dağıtım:** Yeni bir sanal sunucu dakikalar içinde kopyalanıp devreye alınabilir[1].
+- **Yüksek Erişilebilirlik ve Felaket Kurtarma:** Sanal makinelerin yedeğini almak, taşımak ve arıza anında başka sunucuya aktarmak çok kolaydır[1].
+
+### **BÖLÜM 3.1: SANALLAŞTIRMA TEKNOLOJİLERİ**
+
+---
+
+#### **1. Sanallaştırma Nedir?**
+
+- **Sanallaştırma (Virtualization):** Fiziksel bir donanım kaynağının (sunucu, depolama aygıtı, ağ veya işletim sistemi) mantıksal parçalara bölünerek birden fazla bağımsız ortam gibi çalıştırılmasıdır[1].
+- **Temel Amaç:** Tek bir fiziksel bilgisayar üzerinde aynı anda birbirinden bağımsız birden fazla işletim sistemini ve uygulamayı çalıştırmaktır[1].
+- **Sanal Makine (Virtual Machine - VM):** Gerçek bir bilgisayar gibi çalışan, kendine ait sanal işlemcisi (CPU), belleği (RAM) ve diski bulunan yazılımsal bilgisayardır[1].
+
+---
+
+#### **2. Sanal Makine Türleri**
+
+- **Sistem Sanal Makineleri:** Fiziksel makinenin donanımını tamamen taklit ederek üzerinde eksiksiz bir işletim sistemi çalıştıran sistemlerdir (Örn: VMware, VirtualBox)[1].
+- **Proses (Süreç) Sanal Makineleri:** Yalnızca tek bir programı veya süreci çalıştırmak için oluşturulan platform bağımsız ortamlardır (Örn: Java Sanal Makinesi - JVM, .NET CLR)[1].
+
+---
+
+#### **3. Sanallaştırma Türleri**
+
+- **Donanım (Sunucu) Sanallaştırma:** Bir fiziksel sunucunun mantıksal sunuculara bölünerek kaynakların tam verimle kullanılmasıdır[1].
+- **Ağ Sanallaştırma:** Fiziksel ağ donanımlarının mantıksal sanal ağlara ayrılması veya birleştirilmesidir[1].
+- **Masaüstü Sanallaştırma:** Kullanıcı masaüstü işletim sisteminin merkezi bir sunucuda çalıştırılıp uzaktaki istemcilere aktarılmasıdır[1].
+- **Uygulama Sanallaştırma:** Bir uygulamanın yerel işletim sistemine kurulmadan, izole bir kapsül içinde doğrudan sunucudan çalıştırılmasıdır[1].
+
+---
+
+#### **4. Hipervizör (Hypervisor / Sanal Makine Monitörü)**
+
+Fiziksel donanım ile sanal makineler arasında yer alan, sanal makinelerin oluşturulmasını, yönetilmesini ve donanım kaynaklarını paylaşmasını sağlayan yazılım katmanıdır[1]. İki ana türe ayrılır:
+
+- **Tip-1 (Bare-Metal / Çıplak Metal):**
+    - Doğrudan fiziksel donanımın üzerine kurulur; arada herhangi bir ana işletim sistemi yoktur[1].
+    - Yüksek performanslı ve kurumsal sistemler için uygundur[1].
+    - *Örnekler:* VMware ESXi, Microsoft Hyper-V, Citrix XenServer[1].
+- **Tip-2 (Hosted / Barındırılan):**
+    - Mevcut bir işletim sisteminin (Windows, Linux, macOS) üzerine bir uygulama gibi kurulur[1].
+    - Performansı Tip-1'e göre daha düşüktür; test ve kişisel kullanım için uygundur[1].
+    - *Örnekler:* VMware Workstation, Oracle VirtualBox[1].
+
+---
+
+#### **5. Sanallaştırmanın Avantajları**
+
+- **Yüksek Kaynak Kullanımı:** Atıl duran sunucu kapasitelerini (%10-15'ten %70-80'lere) çıkarır[1].
+- **Düşük Donanım ve Enerji Maliyeti:** Daha az fiziksel sunucu, daha az elektrik ve soğutma gideri sağlar[1].
+- **Merkezi Yönetim ve Hızlı Dağıtım:** Yeni bir sanal sunucu dakikalar içinde kopyalanıp devreye alınabilir[1].
+- **Yüksek Erişilebilirlik ve Felaket Kurtarma:** Sanal makinelerin yedeğini almak, taşımak ve arıza anında başka sunucuya aktarmak çok kolaydır[1].
+
+### **BÖLÜM 3.2: BULUT BİLİŞİM DAĞITIM MODELLERİNİN KARŞILAŞTIRMALI ANALİZİ**
+
+Slaytlarda dağıtım modelleri şu temel kriterlere göre karşılaştırılmıştır[1]:
+
+- **1. Genel Bulut (Public Cloud):**
+    - **Maliyet:** En düşük maliyetlidir; donanım satın alma veya bakım masrafı yoktur[1].
+    - **Kontrol:** Kontrol tamamen üçüncü taraf servis sağlayıcısındadır[1].
+    - **Güvenlik:** Paylaşımlı altyapı nedeniyle güvenlik endişesi en yüksek modeldir[1].
+    - **Ölçeklenebilirlik:** Neredeyse sınırsız ve anında ölçeklenebilirlik sunar[1].
+- **2. Özel Bulut (Private Cloud):**
+    - **Maliyet:** En yüksek maliyetlidir; altyapı yatırımı ve yönetim gideri gerektirir[1].
+    - **Kontrol:** Tam denetim ve kontrol kurumun kendi elindedir[1].
+    - **Güvenlik:** Donanım ve kaynaklar sadece tek bir kuruma ayrıldığı için en yüksek güvenlik seviyesine sahiptir[1].
+    - **Ölçeklenebilirlik:** Kurumun elindeki fiziksel donanım sınırlarıyla kısıtlıdır[1].
+- **3. Karma / Hibrit Bulut (Hybrid Cloud):**
+    - **Denge:** Genel bulutun maliyet/ölçek avantajı ile özel bulutun güvenlik/kontrol avantajını birleştirir[1].
+    - **Kullanım Mantığı:** Kritik ve hassas veriler özel bulutta, yoğun işlem gücü gerektiren genel iş yükleri genel bulutta çalıştırılır[1].
+- **4. Topluluk Bulutu (Community Cloud):**
+    - **Ortak Paylaşım:** Benzer hedefleri, mevzuat gereksinimleri veya güvenlik standartları olan kurumlar (örn. bankalar, hastaneler) arasında maliyeti ve altyapıyı paylaşır[1].
+
+---
+
+### **BÖLÜM 3.3: BULUT TEKNOLOJİLERİNİN KULLANIM ALANLARI VE DEPOLAMA**
+
+#### **1. Bulut Teknolojilerinin Temel Kullanım Alanları**
+
+Slaytta sıralanan başlıca kullanım amaçları[2]:
+
+- Yeni bulut tabanlı uygulamalar ve hizmetler geliştirmek[2].
+- Verileri depolamak, yedeklemek ve felaket anında kurtarmak[2].
+- Web sitelerini ve kurumsal blogları barındırmak[2].
+- Ses ve video akışı (streaming) sunmak[2].
+- İsteğe bağlı yazılım dağıtımı yapmak (SaaS)[2].
+- Büyük veriler üzerinde desenler oluşturmak ve geleceğe yönelik tahminlerde bulunmak için veri analizi yapmak[2].
+
+#### **2. Slaytta Geçen Bulut Depolama Örnekleri**
+
+- **Dropbox**[2]
+- **Google Drive**[2]
+- **SkyDrive / OneDrive**[2]
+- **iCloud**[2]
+- **Yandex.Disk**[2]
+- **Turkcell Akıllı Bulut**[2]
+- **TTNET Bulut**[2]
+- **Ubuntu One**[2]
+- **iOmegaCloud**[2]
+- **Mobile Me**[2]
+
+---
+
+### **BÖLÜM 3.4: BÜYÜK VERİ (BIG DATA) YÖNETİMİ**
+
+#### **1. Büyük Veri Nedir?**
+
+- **Tanım:** Geleneksel veritabanı araçları ve veri işleme yazılımlarıyla saklanması, yönetilmesi ve analiz edilmesi mümkün olmayan büyüklükteki, hızlı ve karmaşık veri yığınlarıdır[3].
+
+#### **2. Büyük Verinin 5V Kuralı (Sınavın En Kritik Kısmı)**
+
+Büyük veriyi niteleyen 5 temel boyut[3]:
+
+1. **Volume (Hacim):** Verinin büyüklüğü ve kapladığı devasa fiziksel/mantıksal alan (Terabaytlar, Petabaytlar, Zettabaytlar)[3].
+2. **Velocity (Hız):** Verinin üretilme, akış ve işlenme hızı (sensörler, anlık sosyal medya paylaşımları, borsa verileri vb.)[3].
+3. **Variety (Çeşitlilik):** Verinin farklı formatlarda olması (metin, video, ses, log kayıtları, PDF vb.)[3].
+4. **Veracity (Doğruluk / Güvenilirlik):** Toplanan devasa verinin ne kadarının doğru, güvenilir ve tutarlı olduğu[3].
+5. **Value (Değer):** Tüm bu veriler işlenip analiz edildiğinde kuruma sağladığı ekonomik veya stratejik katma değer[3].
+
+### **BÖLÜM 4.1: BULUT BİLİŞİM HİZMET ORTAMLARI VE PLATFORMLAR**
+
+---
+
+#### **1. Önemli Bulut Sağlayıcıları ve Platformları**
+
+Slaytlarda öne çıkan başlıca platformlar[1]:
+
+- **Amazon Web Services (AWS):**
+    - *Amazon EC2:* Esnek sanal sunucu ve işlem gücü sağlar[1].
+    - *Amazon S3:* Yüksek ölçeklenebilir ve dayanıklı nesne depolama servisidir[1].
+    - *Amazon SQS:* Uygulamalar arası mesaj kuyruğu hizmetidir[1].
+- **Google App Engine:** Geliştiricilerin Google altyapısında web uygulamaları çalıştırmasını sağlayan PaaS çözümüdür[1].
+- **Microsoft Azure (Windows Azure):** İşletim sistemi, veri depolama, SQL veritabanı ve web servisleri sunan kapsamlı bulut platformudur[1].
+- **[suspicious link removed] ([suspicious link removed]):** Kurumsal CRM ve bulut tabanlı iş uygulamaları platformudur[1].
+- **Heroku:** Ruby, Java, Python ve Node.js gibi dilleri destekleyen popüler PaaS sağlayıcısıdır[1].
+- **Diğer Platformlar:** Caspio, Engine Yard, Rollbase, OrangeScape[1].
+
+---
+
+#### **2. Bulut Çözüm Süreci (Aşamaları)**
+
+Bir işletmenin buluta geçiş sürecindeki temel adımlar[1]:
+
+1. **Analiz ve Keşif:** Mevcut BT sistemlerinin, uygulamaların ve iş yüklerinin tespiti[1].
+2. **Mimari Tasarım:** Hangi hizmet modelinin (IaaS, PaaS, SaaS) ve dağıtım modelinin (Genel, Özel, Hibrit) seçileceğinin belirlenmesi[1].
+3. **Geçiş (Migrasyon):** Uygulama ve verilerin planlı olarak bulut ortamına taşınması[1].
+4. **Entegrasyon ve Test:** Yerel sistemler ile bulut servislerinin uyumlu çalışmasının doğrulanması[1].
+5. **Yönetim ve Optimizasyon:** Performans, maliyet ve güvenlik takibinin sürekli yapılması[1].
+
+---
+
+#### **3. Bulut Mimarisi Katmanları (Aşağıdan Yukarıya)**
+
+- **Altyapı (Hardware/Infrastructure):** Fiziksel veri merkezleri, sunucular, diskler ve ağ anahtarları[1].
+- **Depolama (Storage):** Dağıtık blok veya nesne depolama katmanı[1].
+- **İşlem (Compute):** Sanallaştırılmış işlemci ve bellek kaynakları[1].
+- **Yönetim (Management):** Kaynakların dinamik tahsisi, izlenmesi ve güvenlik katmanı[1].
+- **Uygulama (Application):** Son kullanıcının etkileşime girdiği yazılımlar[1].
+
+### **BÖLÜM 4.2: BULUT ORTAMININ YÖNETİMİ**
+
+---
+
+#### **1. Bulut Yönetimi Nedir?**
+
+- **Bulut Yönetimi:** Kurumların buluttaki bilgi işlem, depolama, ağ ve güvenlik kaynaklarını merkezi, kontrollü, güvenli ve verimli bir şekilde denetlemesidir[1].
+
+---
+
+#### **2. Bulut Benimseme Becerileri (Buluta Geçiş İçin Gereken Yetkinlikler)**
+
+Slaytta yer alan temel beceriler:
+
+- **Finansal ve İşletme Analizi Becerileri:** Maliyet fayda analizi, TCO (toplam sahip olma maliyeti) hesabı[1].
+- **Teknik Beceriler:** Sanallaştırma, mimari tasarım, ağ ve depolama yönetimi[1].
+- **Güvenlik Becerileri:** Veri şifreleme, kimlik ve erişim yönetimi (IAM), uyumluluk[1].
+- **Sözleşme ve Tedarikçi Yönetimi:** Hizmet Seviyesi Anlaşmaları (SLA) ve sözleşme müzakereleri[1].
+
+---
+
+#### **3. Bulut Ortamı Yönetim Aşamaları**
+
+1. **Planlama ve Strateji:** Hangi uygulamaların taşınacağının (iş yükü analizi), hedeflerin ve geçiş yol haritasının belirlenmesi[1].
+2. **Sağlayıcı Seçimi ve Mimari Tasarım:** AWS, Azure, Google Cloud gibi sağlayıcıların güvenlik, coğrafi konum ve maliyet kriterlerine göre seçilmesi[1][2].
+3. **Analiz ve Test (PoC):** Uygulamaların bulut ortamında performans, güvenlik ve uyumluluk testlerinin yapılması[1].
+4. **Entegrasyon ve Taşıma (Migrasyon):** Verilerin ve servislerin yerel sistemlerden kesintisiz buluta aktarılması[1][2].
+5. **Güvenlik ve Yönetişim:** Rol bazlı yetkilendirme, şifreleme, güvenlik duvarları ve denetim mekanizmalarının kurulması[1].
+6. **İzleme ve Optimizasyon:** Sunucu yüklerinin, kaynak tüketiminin ve faturalandırmanın anlık takibi[1].
+
+---
+
+### **BÖLÜM 4.3: BULUTTA VERİ YÖNETİMİ**
+
+---
+
+#### **1. Veri Türleri (Sınavda Kesin Sorulur)**
+
+- **a) Yapısal Veri (Structured Data):**
+    - Satır ve sütunlardan oluşan, katı bir şeması (tablosu) olan veridir[3].
+    - İlişkisel veritabanlarında (RDBMS - SQL) tutulur[3].
+    - *Örnek:* Excel tabloları, banka hesap kayıtları, TC kimlik veritabanı[3].
+- **b) Yapısal Olmayan Veri (Unstructured Data):**
+    - Belirli bir formatı, satır/sütun düzeni olmayan serbest biçimli veridir[3].
+    - Günümüzdeki verilerin %80'inden fazlasını oluşturur[3].
+    - *Örnek:* PDF'ler, videolar, ses kayıtları, fotoğraflar, sosyal medya paylaşımları[3].
+- **c) Yarı Yapısal Veri (Semi-Structured Data):**
+    - Katı bir tablo yapısı olmayan ancak etiketler (tag) ve anahtar-değer ikilileri içeren veridir[3].
+    - *Örnek:* XML dosyaları, JSON verileri, NoSQL kayıtları[3].
+
+---
+
+#### **2. Bulutta Veri Yönetimi Aşamaları**
+
+- **Veri Güvenliği:** Verinin hem aktarım esnasında hem de diskte beklerken şifrelenmesi[3].
+- **Veri Yetkilendirme (Erişim Kontrolü):** Kimin hangi veriyi okuyup değiştirebileceğinin belirlenmesi[3].
+- **Veri Arşivleme:** Güncel olarak kullanılmayan ancak yasal olarak saklanması gereken verilerin ucuz depolama alanlarına taşınması[3].
+- **Veri Depolama:** Verinin türüne göre blok, nesne veya dosya tabanlı saklanması[2][3].
+- **Veri Yedekleme (Backup):** Donanım arızası veya siber saldırıya karşı verilerin yedeklerinin alınması[3].
+- **Veri Manipülasyonu (SQL vs NoSQL):**
+    - *SQL:* Yapısal verileri sorgulamak için ilişkisel modeller[3].
+    - *NoSQL:* Büyük, esnek ve yatayda kolayca ölçeklenen büyük verileri işlemek için anahtar-değer veya belge tabanlı veritabanları (MongoDB, Cassandra vb.)[3].

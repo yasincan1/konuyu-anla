@@ -5247,6 +5247,7 @@
         "Marka adını bütün ürün ailesinin tek özelliği gibi ezberleme."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 2.2 / 3.1 / 4.1 — ürünlerin işlevi): Dropbox depolama, AWS ve Azure platform; VMware/VirtualBox sanallaştırma bağlamında örneklenir. Not, her ürünün sürüm ve lisans türünü açıklamaz.",
         "Bulut uygulaması son kullanıcının kullandığı yazılım olabilir; bulut platformu çok sayıda altyapı/platform hizmeti sunar. Sanallaştırma yazılımı ise aynı makinede konuk sistemler çalıştırmaya yardımcı olur. Bulutlar sanallaştırma kullanabilir ama her sanallaştırma yazılımı tek başına bir bulut hizmeti değildir.",
         "Dropbox dosya saklama/eşitleme uygulamasıyla; Azure, Amazon Web Services (AWS) ve Oracle Cloud platform hizmetleriyle bilinir. VMware adı sanallaştırma ürünlerini çağrıştırır, ancak bulut çözümleriyle de ilişkilidir. Bu isimleri aynı ölçüt olmadan “bulut değil” diye ayırmak eksik sınıflandırmadır.",
         "Hipervizör sanal makineyi çalıştırıp kaynaklarını denetler. Emülatör başka bir makine mimarisinin davranışını taklit edebilir. KVM (Kernel-based Virtual Machine), Linux tabanlı açık kaynak sanallaştırmadır. SheepShaver farklı bir sistem ortamını çalıştırmaya yönelik emülatör projesidir; FAUmachine de açık kaynak sanal makine/emülasyon alanındadır.",
@@ -5275,7 +5276,8 @@
         "vbox",
         "sheep",
         "fau",
-        "trango"
+        "trango",
+        "user-cloud-notes"
       ],
       "diagram": "products",
       "analysis": [
@@ -5401,7 +5403,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Laboratuvar ekibi — senaryo 27 sınavda yazımı bozuk ürün adı görüyor. Ne yapmalı?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Kanıt ile editoryal yorumu ayırır; yanlış ürüne kesin hüküm vermeyi önler.\nSonuç: Özgün yazımı koruyup olası karşılığı ve belirsizliği ayrı belirtmek."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 2.2 / 3.1 / 4.1 — ürünlerin işlevi",
+        "status": "Konu anlatımı desteklendi",
+        "detail": "Dropbox depolama, AWS ve Azure platform; VMware/VirtualBox sanallaştırma bağlamında örneklenir. Not, her ürünün sürüm ve lisans türünü açıklamaz."
+      }
     },
     {
       "id": "BB-23V-02",
@@ -5455,6 +5462,7 @@
         "“Sınırsız” gibi mutlak sözcükleri dikkatle değerlendir."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.1 — temel özellikler): İsteğe bağlı öz hizmet, geniş ağ erişimi, kaynak havuzu, hızlı esneklik ve ölçülen hizmet beş temel özelliktir. İşbirliği/erişim kolaylığı gibi yarar listeleri bu beşliyle aynı başlık değildir.",
         "Bulut, yalnızca internetten dosya indirmek değildir. Kullanıcı ihtiyaç duyduğu bilişim kapasitesine ağ üzerinden erişir ve kapasiteyi kullanıma göre değiştirebilir. Bu modelin ayırt edici özellikleri ile “işi kolaylaştırır” gibi olası sonuçları ayrı öğrenmek gerekir.",
         "İsteğe bağlı öz hizmet, kullanıcının her kaynak talebi için sağlayıcı personeliyle görüşmeden hizmeti etkinleştirebilmesidir. Geniş ağ erişimi, hizmetin standart ağ mekanizmalarıyla farklı cihazlardan erişilebilir olmasıdır; her yerden izinsiz erişim anlamına gelmez.",
         "Kaynak havuzu, sağlayıcının fiziksel ve sanal kaynakları birden fazla tüketiciye talebe göre paylaştırmasıdır. Müşterilerin verileri mantıksal olarak ayrılır. Havuzlanma, bütün müşterilerin birbirinin verisini okuyabildiği bir ortak klasör değildir.",
@@ -5478,7 +5486,8 @@
         "Kaynak paylaşımı ile veri paylaşımının aynı olmadığını açıklayabilirim."
       ],
       "references": [
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "pool",
       "analysis": [
@@ -5604,7 +5613,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Kütüphane sistemi — senaryo 28 otomatik kapasite artırıyor fakat kotası dolunca yeni kaynak alamıyor. Sonuç?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Hızlı kapasite değişimi esnekliktir; kota ve fiziksel sınırlar bununla çelişmez.\nSonuç: Esneklik vardır ama sınırsız değildir."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.1 — temel özellikler",
+        "status": "Konu anlatımı desteklendi",
+        "detail": "İsteğe bağlı öz hizmet, geniş ağ erişimi, kaynak havuzu, hızlı esneklik ve ölçülen hizmet beş temel özelliktir. İşbirliği/erişim kolaylığı gibi yarar listeleri bu beşliyle aynı başlık değildir."
+      }
     },
     {
       "id": "BB-23V-03",
@@ -5646,6 +5660,7 @@
         "“Sınırsız” gibi mutlak sözcükleri dikkatle değerlendir."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.1 — temel özellikler): İsteğe bağlı öz hizmet, geniş ağ erişimi, kaynak havuzu, hızlı esneklik ve ölçülen hizmet beş temel özelliktir. İşbirliği/erişim kolaylığı gibi yarar listeleri bu beşliyle aynı başlık değildir.",
         "Bulut, yalnızca internetten dosya indirmek değildir. Kullanıcı ihtiyaç duyduğu bilişim kapasitesine ağ üzerinden erişir ve kapasiteyi kullanıma göre değiştirebilir. Bu modelin ayırt edici özellikleri ile “işi kolaylaştırır” gibi olası sonuçları ayrı öğrenmek gerekir.",
         "İsteğe bağlı öz hizmet, kullanıcının her kaynak talebi için sağlayıcı personeliyle görüşmeden hizmeti etkinleştirebilmesidir. Geniş ağ erişimi, hizmetin standart ağ mekanizmalarıyla farklı cihazlardan erişilebilir olmasıdır; her yerden izinsiz erişim anlamına gelmez.",
         "Kaynak havuzu, sağlayıcının fiziksel ve sanal kaynakları birden fazla tüketiciye talebe göre paylaştırmasıdır. Müşterilerin verileri mantıksal olarak ayrılır. Havuzlanma, bütün müşterilerin birbirinin verisini okuyabildiği bir ortak klasör değildir.",
@@ -5669,7 +5684,8 @@
         "Kaynak paylaşımı ile veri paylaşımının aynı olmadığını açıklayabilirim."
       ],
       "references": [
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "pool",
       "analysis": [
@@ -5795,7 +5811,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Eğitim platformu — senaryo 29 otomatik kapasite artırıyor fakat kotası dolunca yeni kaynak alamıyor. Sonuç?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Hızlı kapasite değişimi esnekliktir; kota ve fiziksel sınırlar bununla çelişmez.\nSonuç: Esneklik vardır ama sınırsız değildir."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.1 — temel özellikler",
+        "status": "Konu anlatımı desteklendi",
+        "detail": "İsteğe bağlı öz hizmet, geniş ağ erişimi, kaynak havuzu, hızlı esneklik ve ölçülen hizmet beş temel özelliktir. İşbirliği/erişim kolaylığı gibi yarar listeleri bu beşliyle aynı başlık değildir."
+      }
     },
     {
       "id": "BB-23V-04",
@@ -5834,6 +5855,7 @@
         "Firma adını görmek uygulamanın türünü kanıtlamaz."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.1 — tarihsel dönüm noktaları): Metin anabilgisayar paylaşımını 1950’lerde, McCarthy öngörüsünü 1960’larda, Salesforce SaaS adımını 1999’da, Amazon EC2’yi 2006’da anlatır. İnternet/ağ/kişisel bilgisayar için sorudaki dört öğeli sıra bu metinde ayrıca verilmez.",
         "Bulutun gelişimi tek tarihte başlamış tek ürünün öyküsü değildir. Zaman paylaşımlı ana bilgisayarlar, ağlar, kişisel bilgisayarlar, internet ve sanallaştırma farklı dönemlerde gelişerek bugünkü hizmetlere katkıda bulunmuştur. Öğretim amacıyla çizilen basit sıra gerçek tarihsel gelişimin bütün ayrıntısını vermez.",
         "“İlk bulut uygulaması” ifadesi ölçüt istemektedir: ilk ticari altyapı hizmeti mi, ilk web uygulaması mı, ilk uzaktan hesaplama mı? Ölçüt değişince cevap değişebilir. AWS’nin 2006’da S3 ve EC2 sunması doğrulanabilir bir olaydır; bundan bütün bulut tarihinin ilk şirketi olduğu sonucu otomatik çıkmaz.",
         "Bilgisayar ağları kişisel bilgisayarların yaygınlaşmasından önce de bulunuyordu. “Ana bilgisayar → kişisel bilgisayar → ağ → internet” dersin kavramsal dönemlendirmesi olabilir. Bunu kesin tarih sırası diye sunmak farklı bir iddiadır. Soru çalışma notunu özellikle istiyorsa notun görülmesi gerekir.",
@@ -5858,7 +5880,8 @@
       ],
       "references": [
         "aws",
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "history",
       "analysis": [
@@ -5984,7 +6007,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Lojistik ekibi — senaryo 30 üç projenin bulut/büyük veri olduğunu kanıtlayacak. Hangisi en yeterli veri?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Her önermeyi ayrı teknik ve tarihsel kanıtla sınamayı sağlar.\nSonuç: Her proje için tarih, mimari/hizmet ve işlenen veri özellikleri."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.1 — tarihsel dönüm noktaları",
+        "status": "Konu anlatımı desteklendi",
+        "detail": "Metin anabilgisayar paylaşımını 1950’lerde, McCarthy öngörüsünü 1960’larda, Salesforce SaaS adımını 1999’da, Amazon EC2’yi 2006’da anlatır. İnternet/ağ/kişisel bilgisayar için sorudaki dört öğeli sıra bu metinde ayrıca verilmez."
+      }
     },
     {
       "id": "BB-23V-05",
@@ -6207,6 +6235,7 @@
         "“Birleştirme/bağlama” tek başına yeterli değil; hangi bulutların bağlandığına bak."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.2 / 2.3 / 3.2 — dağıtım modelleri): Genel bulut genel kullanıma açık paylaşımlı altyapıdır. Özel bulut tek kuruma tahsistir; kurum dışında da barındırılabilir. Hibrit farklı modelleri bağlar. Topluluk ortak gereksinimli kurumlara ayrılır.",
         "Dağıtım modeli, bulutun kimlerin kullanımına ayrıldığını ve farklı bulutların nasıl bir araya geldiğini anlatır. Hizmet modelinden farklı olarak burada “işletim sistemini kim yönetir?” değil, “altyapı kimin kullanımına açıktır?” sorusu öndedir.",
         "Genel bulut, genel kullanıma sunulan sağlayıcı altyapısıdır. Müşterinin verisi halka açık olmak zorunda değildir. Özel bulut tek bir kuruluşun özel kullanımına ayrılır. Özel bulut kuruluşun kendi binasında da üçüncü tarafın tesisinde de barındırılabilir; “özel” mutlaka “kurum binasında” demek değildir.",
         "Topluluk bulutu ortak güvenlik, görev veya uyum ihtiyaçları olan belirli kuruluşlar topluluğuna ayrılır. Herkesin kullanabildiği genel buluttan bu erişim sınırıyla ayrılır. Aynı fiziksel altyapıda birden çok kuruluş bulunması tek başına topluluk bulutu tanımı vermez.",
@@ -6230,7 +6259,8 @@
         "Çok kiracılılıktan tek başına dağıtım modeli çıkaramam."
       ],
       "references": [
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "deployment",
       "analysis": [
@@ -6356,7 +6386,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Küçük işletme ekibi — senaryo 32 dış bir tesiste yalnız kendine ayrılmış bulut işletiyor. En doğru yorum?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Özel kullanım hakkı ile fiziksel konum iki farklı ölçüttür.\nSonuç: Dışarıda barındırılan özel bulut olabilir."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.2 / 2.3 / 3.2 — dağıtım modelleri",
+        "status": "Konu anlatımı desteklendi",
+        "detail": "Genel bulut genel kullanıma açık paylaşımlı altyapıdır. Özel bulut tek kuruma tahsistir; kurum dışında da barındırılabilir. Hibrit farklı modelleri bağlar. Topluluk ortak gereksinimli kurumlara ayrılır."
+      }
     },
     {
       "id": "BB-23V-07",
@@ -6370,7 +6405,7 @@
         "Planlı ve Plansız Kesintiler",
         "Sistem Güncellemeleri"
       ],
-      "answer": null,
+      "answer": 2,
       "sources": [
         {
           "file": "F13",
@@ -6379,8 +6414,8 @@
           "url": "kaynaklar/F13.jpeg"
         }
       ],
-      "reason": "Yönetilebilirlik normalde olumlu bir niteliktir; C beklenebilir. Sağlayıcının yönettiği güncellemeler de operasyon yükünü azaltabilir; uyumsuzluk ve kesinti yaratırsa dezavantaj olur. Son seçeneğin bağlamı verilmediğinden tek doğru tartışmalıdır.",
-      "warning": "Sol kenarda kök/ilk seçenek başı kesik; görülen sözcükler aktarılmıştır.",
+      "reason": "Gönderilen metin yönetilebilirliği avantaj; performans, satıcı kilidi, kesintiler ve uyumsuzluk yaratabilen sistem güncellemelerini risk olarak sayıyor. “Dezavantajlarından değildir” kökünde C: Yönetilebilirlik.",
+      "warning": "",
       "mark": "Fotoğrafta C işaretli.",
       "course": "Bulut Bilişim",
       "incomplete": false,
@@ -6398,6 +6433,7 @@
         "Olumsuz kökü iki kez kontrol et."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.3 / 2.2 — fayda ve maliyet): Metnin sınav sınıflandırmasında tasarruf, zaman, esneklik ve yönetilebilirlik avantaj; sınırlı kontrol, satıcı kilidi ve uyumsuzluk yaratabilen güncellemeler risktir. Toplam maliyet karşılaştırması kullanım koşullarına göre yapılır.",
         "Bulut satın alınan kapasite yerine tüketilen hizmete odaklanmayı kolaylaştırır. Başlangıç donanım yatırımı azalabilir ve kapasite daha hızlı sağlanabilir. Ancak toplam maliyet yalnız sanal makine saatinden oluşmaz; veri aktarımı, depolama, işletim, destek ve geçiş maliyetleri de vardır.",
         "TCO, Total Cost of Ownership, toplam sahip olma maliyetidir. Bulut için de benzer biçimde bütün yaşam döngüsü giderleri karşılaştırılır. Kullanılmayan kaynakları açık bırakmak veya yüksek veri çıkış trafiği tasarrufu tersine çevirebilir. “Bulut her zaman ucuzdur” doğru değildir.",
         "Satıcı kilidi, uygulamanın/verinin belirli sağlayıcının arayüz ve hizmetlerine bağımlılığı nedeniyle başka yere geçişin zorlaşmasıdır. Açık biçimler, taşınabilir tasarım ve çıkış planı bunu azaltabilir; her özel hizmet kullanımı otomatik yanlış değildir. Yönetilen hizmetin sağladığı fayda ile taşınma maliyeti karşılaştırılır.",
@@ -6405,12 +6441,13 @@
         "Enerji tasarrufu, üretkenlik artışı ve maliyet düşüşü ekonomik sonuçlarla ilişkilidir. Karbon salımı azalması öncelikle çevresel sonuçtur ve enerji kaynağı/verimlilik gibi koşullara bağlıdır. Bireysel kullanım bir kullanıcı/kullanım türüdür; tek başına ekonomik sonuç değildir. Esneklik yararlıdır ama sınırsız kapasite veya sınırsız bütçe anlamına gelmez."
       ],
       "method": [
-        "İfade fayda mı, risk mi, kullanıcı türü mü, sınıflandır.",
-        "Tasarrufun hangi maliyet kaleminde oluştuğunu açıkla.",
-        "Mutlak iddiayı kota, bütçe ve iş yükü koşullarıyla sına.",
-        "Birden fazla sorunlu seçenek varsa tek doğruyu zorlamadan raporla."
+        "Olumsuz/olumlu kökü belirle.",
+        "Çalışma metnindeki Bölüm 1.3 — yönetilebilirlik ve sistem güncellemeleri bölümünün tanımıyla seçenekleri karşılaştır.",
+        "Gönderilen metin yönetilebilirliği avantaj; performans, satıcı kilidi, kesintiler ve uyumsuzluk yaratabilen sistem güncellemelerini risk olarak sayıyor. “Dezavantajlarından değildir” kökünde C: Yönetilebilirlik.",
+        "Sınavda kullanılacak sonuç: C — Yönetilebilirlik. Teknik kapsam açıklamasını bu cevapla karıştırma."
       ],
       "variations": [
+        "Aynı kavram olumlu kökle veya farklı seçenek sırasıyla sorulursa şık harfini değil tanımı izle.",
         "Sürekli ve sabit yükte bulut tasarrufu yoğunluğu değişen yüke göre farklı olabilir.",
         "Veri çıkış maliyeti ve taşınma yükü dahil karşılaştırma yapılabilir.",
         "Çevresel yararı ekonomik etkiyle ilişkilendiren soruda doğrudan/dolaylı ayrımını yap."
@@ -6421,39 +6458,40 @@
         "Satıcı kilidi ve sınırlı kontrolü örnekleyebilirim."
       ],
       "references": [
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "economy",
       "analysis": [
         {
           "meaning": "Yanıt süresi/iş hacmi gibi hizmet ölçütlerinin yetersizliği.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Yönetilebilirlik normalde olumlu bir niteliktir; C beklenebilir. Sağlayıcının yönettiği güncellemeler de operasyon yükünü azaltabilir; uyumsuzluk ve kesinti yaratırsa dezavantaj olur. Son seçeneğin bağlamı verilmediğinden tek doğru tartışmalıdır.",
-          "when": "Dezavantaj veya hizmet kalitesi riski sorulsa uygun olur.",
-          "confusion": "Her bulut işinin zorunlu olarak yavaş olduğu sanılır."
+          "verdict": "Bu soruda seçilmez. Performans sorunu; ağ gecikmesi ve yavaşlık riskidir. Metinde dezavantajdır.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Performans sorunu; ağ gecikmesi ve yavaşlık riskidir. Metinde dezavantajdır.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Sağlayıcıya bağımlılık nedeniyle çıkış/taşımanın zorlaşması.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Yönetilebilirlik normalde olumlu bir niteliktir; C beklenebilir. Sağlayıcının yönettiği güncellemeler de operasyon yükünü azaltabilir; uyumsuzluk ve kesinti yaratırsa dezavantaj olur. Son seçeneğin bağlamı verilmediğinden tek doğru tartışmalıdır.",
-          "when": "Taşınabilirlik riski sorulsa uygun olur.",
-          "confusion": "Sırf parola veya fiziksel güvenlik kilidiyle karıştırılır."
+          "verdict": "Bu soruda seçilmez. Satıcı kilidi; sağlayıcıya bağımlılıktan doğan taşıma zorluğudur. Metinde dezavantajdır.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Satıcı kilidi; sağlayıcıya bağımlılıktan doğan taşıma zorluğudur. Metinde dezavantajdır.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Sistemin işletilip denetlenebilmesinin kolaylığı.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Yönetilebilirlik normalde olumlu bir niteliktir; C beklenebilir. Sağlayıcının yönettiği güncellemeler de operasyon yükünü azaltabilir; uyumsuzluk ve kesinti yaratırsa dezavantaj olur. Son seçeneğin bağlamı verilmediğinden tek doğru tartışmalıdır.",
-          "when": "Yönetim yararı sorulsa uygun olabilir; “yönetim zorluğu” ayrı ifadedir.",
-          "confusion": "Yönetilebilirlik doğrudan dezavantaj sayılır."
+          "verdict": "Doğru seçenek. Yönetilebilirlik; merkezi arayüzden kaynakları izleyip yönetebilmektir. Metinde avantajdır; aranan seçenek C olur.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Yönetilebilirlik; merkezi arayüzden kaynakları izleyip yönetebilmektir. Metinde avantajdır; aranan seçenek C olur.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Hizmet erişiminin belirli süre aksaması.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Yönetilebilirlik normalde olumlu bir niteliktir; C beklenebilir. Sağlayıcının yönettiği güncellemeler de operasyon yükünü azaltabilir; uyumsuzluk ve kesinti yaratırsa dezavantaj olur. Son seçeneğin bağlamı verilmediğinden tek doğru tartışmalıdır.",
-          "when": "Kullanılabilirlik riski sorulsa uygun olur.",
-          "confusion": "Kesintiyi azaltan kontrol yerine kesintinin kendisi katman sayılır."
+          "verdict": "Bu soruda seçilmez. Planlı ve plansız kesintiler erişilebilirliği etkiler; metindeki hizmet kesintileri riskiyle eşleşir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Planlı ve plansız kesintiler erişilebilirliği etkiler; metindeki hizmet kesintileri riskiyle eşleşir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Yazılım sürümü ve yamaların uygulanması.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Yönetilebilirlik normalde olumlu bir niteliktir; C beklenebilir. Sağlayıcının yönettiği güncellemeler de operasyon yükünü azaltabilir; uyumsuzluk ve kesinti yaratırsa dezavantaj olur. Son seçeneğin bağlamı verilmediğinden tek doğru tartışmalıdır.",
-          "when": "Güvenlik/işletim kolaylığı veya uyumsuzluk riski koşullarına göre değerlendirilir.",
-          "confusion": "Her güncellemenin zorunlu zarar veya mutlak fayda olduğu sanılır."
+          "verdict": "Bu soruda seçilmez. Sistem güncellemeleri bu soruda plansız değişikliğin uyumsuzluk yaratma riski anlamındadır. Not bunu dezavantajlar altında açıklar. Güvenlik yaması ise yararlı olabilir; iki bağlam birbirine karıştırılmaz.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Sistem güncellemeleri bu soruda plansız değişikliğin uyumsuzluk yaratma riski anlamındadır. Not bunu dezavantajlar altında açıklar. Güvenlik yaması ise yararlı olabilir; iki bağlam birbirine karıştırılmaz.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         }
       ],
       "exercises": [
@@ -6547,7 +6585,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Arşiv ekibi — senaryo 33 yönetilen hizmetle işletim yükünü azaltıyor ama sürüm kontrolünü kısmen bırakıyor. Nasıl değerlendirmeli?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Bir tercih hem yarar hem sınırlama içerebilir.\nSonuç: İşletim faydası ile kontrol/taşınabilirlik riskini birlikte karşılaştırmalı."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.3 — yönetilebilirlik ve sistem güncellemeleri",
+        "status": "Çalışma metnine göre sınav cevabı",
+        "detail": "Gönderilen metin yönetilebilirliği avantaj; performans, satıcı kilidi, kesintiler ve uyumsuzluk yaratabilen sistem güncellemelerini risk olarak sayıyor. “Dezavantajlarından değildir” kökünde C: Yönetilebilirlik."
+      }
     },
     {
       "id": "BB-23V-08",
@@ -6561,7 +6604,7 @@
         "Sun",
         "Oracle"
       ],
-      "answer": null,
+      "answer": 0,
       "sources": [
         {
           "file": "F13",
@@ -6570,8 +6613,8 @@
           "url": "kaynaklar/F13.jpeg"
         }
       ],
-      "reason": "Soru açıkça çalışma notlarına dayanıyor. AWS’nin S3 ve EC2 hizmetleri 2006’da başladı; bu, dünya tarihindeki ilk bulut uygulamasını yapan şirket iddiasını tek başına kanıtlamaz. Notlar klasörde yok.",
-      "warning": "A fotoğrafta işaretli; “ilk” tanımı ve çalışma notları yok, kesin cevap verilmedi.",
+      "reason": "Gönderilen metin modern bulutun başlangıcını 2006 Amazon EC2 ile ilişkilendiriyor. Verilen seçenekler içinde bu eşleşme A: Amazon’dur. Bu, bütün bulut tarihindeki ilk uygulamanın kesinlikle Amazon olduğu iddiası değildir; metin 1999 Salesforce adımını da ayrıca anıyor.",
+      "warning": "",
       "mark": "",
       "course": "Bulut Bilişim",
       "incomplete": false,
@@ -6586,6 +6629,7 @@
         "Firma adını görmek uygulamanın türünü kanıtlamaz."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.1 — tarihsel dönüm noktaları): Metin anabilgisayar paylaşımını 1950’lerde, McCarthy öngörüsünü 1960’larda, Salesforce SaaS adımını 1999’da, Amazon EC2’yi 2006’da anlatır. İnternet/ağ/kişisel bilgisayar için sorudaki dört öğeli sıra bu metinde ayrıca verilmez.",
         "Bulutun gelişimi tek tarihte başlamış tek ürünün öyküsü değildir. Zaman paylaşımlı ana bilgisayarlar, ağlar, kişisel bilgisayarlar, internet ve sanallaştırma farklı dönemlerde gelişerek bugünkü hizmetlere katkıda bulunmuştur. Öğretim amacıyla çizilen basit sıra gerçek tarihsel gelişimin bütün ayrıntısını vermez.",
         "“İlk bulut uygulaması” ifadesi ölçüt istemektedir: ilk ticari altyapı hizmeti mi, ilk web uygulaması mı, ilk uzaktan hesaplama mı? Ölçüt değişince cevap değişebilir. AWS’nin 2006’da S3 ve EC2 sunması doğrulanabilir bir olaydır; bundan bütün bulut tarihinin ilk şirketi olduğu sonucu otomatik çıkmaz.",
         "Bilgisayar ağları kişisel bilgisayarların yaygınlaşmasından önce de bulunuyordu. “Ana bilgisayar → kişisel bilgisayar → ağ → internet” dersin kavramsal dönemlendirmesi olabilir. Bunu kesin tarih sırası diye sunmak farklı bir iddiadır. Soru çalışma notunu özellikle istiyorsa notun görülmesi gerekir.",
@@ -6593,12 +6637,13 @@
         "Önermeli soruda I–III için ayrı kanıt aramak gerekir. Klasörde yalnız şirket isimleri varsa kanıtsız biçimde hepsine doğru denmez. Beklenen ders şıkkı fotoğrafta işaretli olsa bile bunu resmî cevap anahtarı yerine koyma."
       ],
       "method": [
-        "“İlk” veya “örnek” iddiasının kapsamını yaz.",
-        "Kaynağın ders notu mu resmî tarihçe mi olduğunu ayır.",
-        "Her önermeyi ayrı belgeyle doğrula.",
-        "Kanıt yetmiyorsa kesin cevap yerine eksik bilgiyi belirt."
+        "Olumsuz/olumlu kökü belirle.",
+        "Çalışma metnindeki Bölüm 1.1 — 2006 Amazon / AWS bölümünün tanımıyla seçenekleri karşılaştır.",
+        "Gönderilen metin modern bulutun başlangıcını 2006 Amazon EC2 ile ilişkilendiriyor. Verilen seçenekler içinde bu eşleşme A: Amazon’dur. Bu, bütün bulut tarihindeki ilk uygulamanın kesinlikle Amazon olduğu iddiası değildir; metin 1999 Salesforce adımını da ayrıca anıyor.",
+        "Sınavda kullanılacak sonuç: A — Amazon. Teknik kapsam açıklamasını bu cevapla karıştırma."
       ],
       "variations": [
+        "Aynı kavram olumlu kökle veya farklı seçenek sırasıyla sorulursa şık harfini değil tanımı izle.",
         "Soru “2006’da S3 ve EC2 sunan” derse Amazon doğrulanabilir olur.",
         "Şirket isimleri yerine proje özellikleri verilirse bulut/büyük veri ayrımı teknik özelliklerle yapılabilir.",
         "Kavramsal sıra ile ilk ortaya çıkış tarihini farklı cevaplandır."
@@ -6610,39 +6655,40 @@
       ],
       "references": [
         "aws",
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "history",
       "analysis": [
         {
           "meaning": "Bir teknoloji şirketi adı; proje/tarih ölçütü tek başına verilmez.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Soru açıkça çalışma notlarına dayanıyor. AWS’nin S3 ve EC2 hizmetleri 2006’da başladı; bu, dünya tarihindeki ilk bulut uygulamasını yapan şirket iddiasını tek başına kanıtlamaz. Notlar klasörde yok.",
-          "when": "Belirli hizmet ve tarih belgelendiğinde tarihsel örnek sorusuna yanıt olabilir.",
-          "confusion": "Şirket adı bütün projelerin bulut/büyük veri olduğunu kanıtlar sanılır."
+          "verdict": "Doğru seçenek. Amazon, notta 2006 EC2 ve modern bulut başlangıcıyla eşleştirilmiştir; seçenekler içinde ders bağlamına uyan A budur.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Amazon, notta 2006 EC2 ve modern bulut başlangıcıyla eşleştirilmiştir; seçenekler içinde ders bağlamına uyan A budur.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Bir teknoloji şirketi adı; proje/tarih ölçütü tek başına verilmez.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Soru açıkça çalışma notlarına dayanıyor. AWS’nin S3 ve EC2 hizmetleri 2006’da başladı; bu, dünya tarihindeki ilk bulut uygulamasını yapan şirket iddiasını tek başına kanıtlamaz. Notlar klasörde yok.",
-          "when": "Belirli hizmet ve tarih belgelendiğinde tarihsel örnek sorusuna yanıt olabilir.",
-          "confusion": "Şirket adı bütün projelerin bulut/büyük veri olduğunu kanıtlar sanılır."
+          "verdict": "Bu soruda seçilmez. Microsoft, metinde Azure sağlayıcısıdır; 2006 EC2 başlangıcının şirketi değildir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Microsoft, metinde Azure sağlayıcısıdır; 2006 EC2 başlangıcının şirketi değildir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Bir teknoloji şirketi adı; proje/tarih ölçütü tek başına verilmez.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Soru açıkça çalışma notlarına dayanıyor. AWS’nin S3 ve EC2 hizmetleri 2006’da başladı; bu, dünya tarihindeki ilk bulut uygulamasını yapan şirket iddiasını tek başına kanıtlamaz. Notlar klasörde yok.",
-          "when": "Belirli hizmet ve tarih belgelendiğinde tarihsel örnek sorusuna yanıt olabilir.",
-          "confusion": "Şirket adı bütün projelerin bulut/büyük veri olduğunu kanıtlar sanılır."
+          "verdict": "Bu soruda seçilmez. Google, metinde App Engine platformuyla geçer; nottaki EC2 tarihinin şirketi değildir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Google, metinde App Engine platformuyla geçer; nottaki EC2 tarihinin şirketi değildir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Bir teknoloji şirketi adı; proje/tarih ölçütü tek başına verilmez.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Soru açıkça çalışma notlarına dayanıyor. AWS’nin S3 ve EC2 hizmetleri 2006’da başladı; bu, dünya tarihindeki ilk bulut uygulamasını yapan şirket iddiasını tek başına kanıtlamaz. Notlar klasörde yok.",
-          "when": "Belirli hizmet ve tarih belgelendiğinde tarihsel örnek sorusuna yanıt olabilir.",
-          "confusion": "Şirket adı bütün projelerin bulut/büyük veri olduğunu kanıtlar sanılır."
+          "verdict": "Bu soruda seçilmez. Sun bu metinde modern bulutun başlangıcı olarak verilmez; bu sorunun not eşleşmesi değildir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Sun bu metinde modern bulutun başlangıcı olarak verilmez; bu sorunun not eşleşmesi değildir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Bir teknoloji şirketi adı; proje/tarih ölçütü tek başına verilmez.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Soru açıkça çalışma notlarına dayanıyor. AWS’nin S3 ve EC2 hizmetleri 2006’da başladı; bu, dünya tarihindeki ilk bulut uygulamasını yapan şirket iddiasını tek başına kanıtlamaz. Notlar klasörde yok.",
-          "when": "Belirli hizmet ve tarih belgelendiğinde tarihsel örnek sorusuna yanıt olabilir.",
-          "confusion": "Şirket adı bütün projelerin bulut/büyük veri olduğunu kanıtlar sanılır."
+          "verdict": "Bu soruda seçilmez. Oracle bu metinde 2006 EC2 adımının şirketi olarak verilmez; seçenekler arasındaki Amazon eşleşmesini karşılamaz.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Oracle bu metinde 2006 EC2 adımının şirketi olarak verilmez; seçenekler arasındaki Amazon eşleşmesini karşılamaz.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         }
       ],
       "exercises": [
@@ -6736,7 +6782,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Belediye uygulama ekibi — senaryo 34 üç projenin bulut/büyük veri olduğunu kanıtlayacak. Hangisi en yeterli veri?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Her önermeyi ayrı teknik ve tarihsel kanıtla sınamayı sağlar.\nSonuç: Her proje için tarih, mimari/hizmet ve işlenen veri özellikleri."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.1 — 2006 Amazon / AWS",
+        "status": "Çalışma metnine göre sınav cevabı",
+        "detail": "Gönderilen metin modern bulutun başlangıcını 2006 Amazon EC2 ile ilişkilendiriyor. Verilen seçenekler içinde bu eşleşme A: Amazon’dur. Bu, bütün bulut tarihindeki ilk uygulamanın kesinlikle Amazon olduğu iddiası değildir; metin 1999 Salesforce adımını da ayrıca anıyor."
+      }
     },
     {
       "id": "BB-23V-09",
@@ -6777,6 +6828,7 @@
         "“Yalnızca” koşulu bütün bileşenlerde sağlanmalıdır."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.2 / 2.3 — hizmet modelleri): IaaS temel kaynakları sunar; işletim sistemini kullanıcı yönetir. PaaS hazır çalışma ortamı verir; kullanıcı uygulamasına odaklanır. SaaS hazır son kullanıcı yazılımıdır.",
         "Bir işletme bilgisayar ihtiyacını üç farklı seviyede kiralayabilir. Hazır bir muhasebe uygulamasını açıp kullanmakla, boş bir sanal bilgisayara işletim sistemi kurmak aynı sorumluluğu gerektirmez. Hizmet modeli, ürünün isminden çok müşterinin hangi katmanları yönettiğini anlatır.",
         "IaaS, Infrastructure as a Service, Hizmet Olarak Altyapıdır. Sağlayıcı fiziksel sunucu, depolama, ağ ve sanallaştırmayı işletir. Müşteri konuk işletim sistemini, onun yamalarını, uygulamasını ve verisini yönetir. Sanal makine (VM, Virtual Machine) kiralama tipik örnektir. Müşteri fiziksel diskin sahibi olmadan disk alanını yapılandırabilir.",
         "PaaS, Platform as a Service, Hizmet Olarak Platformdur. Sağlayıcı işletim sistemi ve çalışma platformunu yönetir; müşteri uygulama koduna, veriye ve izinlere odaklanır. Yönetilen uygulama barındırma ve yönetilen veri tabanları bu kapsamdadır. Azure App Service ve Azure SQL Database bu nedenle VM üzerinde elle SQL Server kurmaktan farklıdır.",
@@ -6801,7 +6853,8 @@
       ],
       "references": [
         "nist",
-        "cosmos"
+        "cosmos",
+        "user-cloud-notes"
       ],
       "diagram": "models",
       "analysis": [
@@ -6927,7 +6980,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Laboratuvar ekibi — senaryo 35 yalnız PaaS kullanacak. Hangi bileşim bu koşula uyar?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: İki bileşen de platform hizmetidir; müşteri konuk işletim sistemi işletmez.\nSonuç: Yönetilen web platformu + yönetilen veri tabanı."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.2 / 2.3 — hizmet modelleri",
+        "status": "Konu anlatımı desteklendi",
+        "detail": "IaaS temel kaynakları sunar; işletim sistemini kullanıcı yönetir. PaaS hazır çalışma ortamı verir; kullanıcı uygulamasına odaklanır. SaaS hazır son kullanıcı yazılımıdır."
+      }
     },
     {
       "id": "BB-23V-10",
@@ -6968,6 +7026,7 @@
         "“Yalnızca” koşulu bütün bileşenlerde sağlanmalıdır."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.2 / 2.3 — hizmet modelleri): IaaS temel kaynakları sunar; işletim sistemini kullanıcı yönetir. PaaS hazır çalışma ortamı verir; kullanıcı uygulamasına odaklanır. SaaS hazır son kullanıcı yazılımıdır.",
         "Bir işletme bilgisayar ihtiyacını üç farklı seviyede kiralayabilir. Hazır bir muhasebe uygulamasını açıp kullanmakla, boş bir sanal bilgisayara işletim sistemi kurmak aynı sorumluluğu gerektirmez. Hizmet modeli, ürünün isminden çok müşterinin hangi katmanları yönettiğini anlatır.",
         "IaaS, Infrastructure as a Service, Hizmet Olarak Altyapıdır. Sağlayıcı fiziksel sunucu, depolama, ağ ve sanallaştırmayı işletir. Müşteri konuk işletim sistemini, onun yamalarını, uygulamasını ve verisini yönetir. Sanal makine (VM, Virtual Machine) kiralama tipik örnektir. Müşteri fiziksel diskin sahibi olmadan disk alanını yapılandırabilir.",
         "PaaS, Platform as a Service, Hizmet Olarak Platformdur. Sağlayıcı işletim sistemi ve çalışma platformunu yönetir; müşteri uygulama koduna, veriye ve izinlere odaklanır. Yönetilen uygulama barındırma ve yönetilen veri tabanları bu kapsamdadır. Azure App Service ve Azure SQL Database bu nedenle VM üzerinde elle SQL Server kurmaktan farklıdır.",
@@ -6992,7 +7051,8 @@
       ],
       "references": [
         "nist",
-        "cosmos"
+        "cosmos",
+        "user-cloud-notes"
       ],
       "diagram": "models",
       "analysis": [
@@ -7118,7 +7178,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Kütüphane sistemi — senaryo 36 yalnız PaaS kullanacak. Hangi bileşim bu koşula uyar?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: İki bileşen de platform hizmetidir; müşteri konuk işletim sistemi işletmez.\nSonuç: Yönetilen web platformu + yönetilen veri tabanı."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.2 / 2.3 — hizmet modelleri",
+        "status": "Konu anlatımı desteklendi",
+        "detail": "IaaS temel kaynakları sunar; işletim sistemini kullanıcı yönetir. PaaS hazır çalışma ortamı verir; kullanıcı uygulamasına odaklanır. SaaS hazır son kullanıcı yazılımıdır."
+      }
     },
     {
       "id": "BB-23V-11",
@@ -7132,7 +7197,7 @@
         "Topluluk Bulut",
         "Şirket Bulut"
       ],
-      "answer": null,
+      "answer": 0,
       "sources": [
         {
           "file": "F13",
@@ -7141,8 +7206,8 @@
           "url": "kaynaklar/F13.jpeg"
         }
       ],
-      "reason": "Paylaşılan fiziksel altyapı + ayrılmış müşteri verisi çok kiracılılık modelidir. Genel bulutta yaygındır; tanım sadece genel buluta özgü değildir. A ancak genel erişim koşulu da varsayılırsa beklenir.",
-      "warning": "2022 varyantına ek E şıkkı bulunduğundan ayrı varyant; “Şirket Bulut” standart NIST modeli değil.",
+      "reason": "Metinde genel bulut, çok sayıda müşterinin sağlayıcı altyapısını paylaştığı modeldir. Bu ders eşleştirmesine göre A: Genel Bulut. Teknik kavram olarak çok kiracılılık daha geniştir; sorunun ders cevabı ile kavramın bütün kullanım alanları ayrılmalıdır.",
+      "warning": "",
       "mark": "",
       "course": "Bulut Bilişim",
       "incomplete": false,
@@ -7159,6 +7224,7 @@
         "“Birleştirme/bağlama” tek başına yeterli değil; hangi bulutların bağlandığına bak."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.2 / 2.3 / 3.2 — dağıtım modelleri): Genel bulut genel kullanıma açık paylaşımlı altyapıdır. Özel bulut tek kuruma tahsistir; kurum dışında da barındırılabilir. Hibrit farklı modelleri bağlar. Topluluk ortak gereksinimli kurumlara ayrılır.",
         "Dağıtım modeli, bulutun kimlerin kullanımına ayrıldığını ve farklı bulutların nasıl bir araya geldiğini anlatır. Hizmet modelinden farklı olarak burada “işletim sistemini kim yönetir?” değil, “altyapı kimin kullanımına açıktır?” sorusu öndedir.",
         "Genel bulut, genel kullanıma sunulan sağlayıcı altyapısıdır. Müşterinin verisi halka açık olmak zorunda değildir. Özel bulut tek bir kuruluşun özel kullanımına ayrılır. Özel bulut kuruluşun kendi binasında da üçüncü tarafın tesisinde de barındırılabilir; “özel” mutlaka “kurum binasında” demek değildir.",
         "Topluluk bulutu ortak güvenlik, görev veya uyum ihtiyaçları olan belirli kuruluşlar topluluğuna ayrılır. Herkesin kullanabildiği genel buluttan bu erişim sınırıyla ayrılır. Aynı fiziksel altyapıda birden çok kuruluş bulunması tek başına topluluk bulutu tanımı vermez.",
@@ -7166,12 +7232,13 @@
         "Çok kiracılılık, aynı altyapının birden fazla müşteriye mantıksal ayrımla hizmet vermesidir. Genel bulutlarda sık görülür ama dağıtım modeliyle eş anlamlı değildir. “Veriler gizli, donanım ortak” ifadesinden tek başına genel/topluluk kararı çıkarılamaz. “Şirket bulut” günlük kullanımda özel bulutu anlatabilir; standart sınıflandırmada ayrı bir beşinci model sayılmaz."
       ],
       "method": [
-        "Kullanıma erişim kimlere açık: herkes, tek kuruluş, belirli topluluk?",
-        "Fiziksel konum bilgisini erişim kapsamından ayır.",
-        "İki farklı bulutun bağlı ve taşınabilir çalışması söyleniyorsa hibriti değerlendir.",
-        "Yalnız paylaşılan donanım anlatılıyorsa çok kiracılılık ile dağıtım modelini karıştırma."
+        "Olumsuz/olumlu kökü belirle.",
+        "Çalışma metnindeki Bölüm 2.3 ve 3.2 — genel bulut bölümünün tanımıyla seçenekleri karşılaştır.",
+        "Metinde genel bulut, çok sayıda müşterinin sağlayıcı altyapısını paylaştığı modeldir. Bu ders eşleştirmesine göre A: Genel Bulut. Teknik kavram olarak çok kiracılılık daha geniştir; sorunun ders cevabı ile kavramın bütün kullanım alanları ayrılmalıdır.",
+        "Sınavda kullanılacak sonuç: A — Genel Bulut. Teknik kapsam açıklamasını bu cevapla karıştırma."
       ],
       "variations": [
+        "Aynı kavram olumlu kökle veya farklı seçenek sırasıyla sorulursa şık harfini değil tanımı izle.",
         "Özel bulut dış sağlayıcının tesisinde olabilir.",
         "Genel bulutta ayrı fiziksel donanım seçeneği bulunması genel modelini otomatik değiştirmez.",
         "Bir sınav çok kiracılılığı sorup yalnız dağıtım modeli şıkları veriyorsa eksik koşulu belirt."
@@ -7182,39 +7249,40 @@
         "Çok kiracılılıktan tek başına dağıtım modeli çıkaramam."
       ],
       "references": [
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "deployment",
       "analysis": [
         {
           "meaning": "Genel kullanıma sunulan sağlayıcı bulutu.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Paylaşılan fiziksel altyapı + ayrılmış müşteri verisi çok kiracılılık modelidir. Genel bulutta yaygındır; tanım sadece genel buluta özgü değildir. A ancak genel erişim koşulu da varsayılırsa beklenir.",
-          "when": "Genel erişime açık hizmet altyapısı sorulsa uygun olur.",
-          "confusion": "Verinin halka açık olması veya yalnız çok kiracılılıkla karıştırılır."
+          "verdict": "Doğru seçenek. Genel bulut, metindeki çok müşterili paylaşımlı sağlayıcı altyapısı tanımıyla eşleşir; ders cevabı A’dır.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Genel bulut, metindeki çok müşterili paylaşımlı sağlayıcı altyapısı tanımıyla eşleşir; ders cevabı A’dır.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Tek kuruluşun özel kullanımına ayrılmış bulut.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Paylaşılan fiziksel altyapı + ayrılmış müşteri verisi çok kiracılılık modelidir. Genel bulutta yaygındır; tanım sadece genel buluta özgü değildir. A ancak genel erişim koşulu da varsayılırsa beklenir.",
-          "when": "Tek kuruluşa özel kullanım sorulsa uygun olur; konum içeride veya dışarıda olabilir.",
-          "confusion": "Mutlaka kurum binasında olmakla karıştırılır."
+          "verdict": "Bu soruda seçilmez. Özel bulut yalnız bir kurumun kullanımına ayrılır; kökteki farklı müşteriler senaryosunun not karşılığı değildir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Özel bulut yalnız bir kurumun kullanımına ayrılır; kökteki farklı müşteriler senaryosunun not karşılığı değildir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Ayrı bulutların taşınabilirlik sağlayan birlikteliği.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Paylaşılan fiziksel altyapı + ayrılmış müşteri verisi çok kiracılılık modelidir. Genel bulutta yaygındır; tanım sadece genel buluta özgü değildir. A ancak genel erişim koşulu da varsayılırsa beklenir.",
-          "when": "Özel ve genel bulut bağlantısı gibi birleşimler sorulsa uygun olur.",
-          "confusion": "Yalnız internet bağlantısı veya iki sıradan sunucuyla karıştırılır."
+          "verdict": "Bu soruda seçilmez. Hibrit bulut için ayrı bulut modellerinin bağlanması gerekir; bu bilgi verilmemiştir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Hibrit bulut için ayrı bulut modellerinin bağlanması gerekir; bu bilgi verilmemiştir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Ortak gereksinimli belirli kuruluş grubuna ayrılmış bulut.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Paylaşılan fiziksel altyapı + ayrılmış müşteri verisi çok kiracılılık modelidir. Genel bulutta yaygındır; tanım sadece genel buluta özgü değildir. A ancak genel erişim koşulu da varsayılırsa beklenir.",
-          "when": "Ortak görev/güvenlik gereksinimli sınırlı topluluk sorulsa uygun olur.",
-          "confusion": "Her paylaşılan donanımın topluluk bulut olduğu sanılır."
+          "verdict": "Bu soruda seçilmez. Topluluk bulutu için ortak misyon/güvenlik gereksinimi gibi koşullar gerekir; kökte yoktur.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Topluluk bulutu için ortak misyon/güvenlik gereksinimi gibi koşullar gerekir; kökte yoktur.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Günlük dilde özel bulut için kullanılabilen, ayrı standart model olmayan ad.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Paylaşılan fiziksel altyapı + ayrılmış müşteri verisi çok kiracılılık modelidir. Genel bulutta yaygındır; tanım sadece genel buluta özgü değildir. A ancak genel erişim koşulu da varsayılırsa beklenir.",
-          "when": "Özel bulutun gündelik adı sorulsa düşünülebilir; standart beşinci model değildir.",
-          "confusion": "NIST’in ayrı bir dağıtım modeli sanılır."
+          "verdict": "Bu soruda seçilmez. Şirket bulutu, notta ayrı bir beşinci dağıtım modeli değildir. Günlük kullanımda kuruma ait özel bulut anlamına gelebilir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Şirket bulutu, notta ayrı bir beşinci dağıtım modeli değildir. Günlük kullanımda kuruma ait özel bulut anlamına gelebilir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         }
       ],
       "exercises": [
@@ -7308,7 +7376,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Eğitim platformu — senaryo 37 dış bir tesiste yalnız kendine ayrılmış bulut işletiyor. En doğru yorum?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Özel kullanım hakkı ile fiziksel konum iki farklı ölçüttür.\nSonuç: Dışarıda barındırılan özel bulut olabilir."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 2.3 ve 3.2 — genel bulut",
+        "status": "Çalışma metnine göre sınav cevabı",
+        "detail": "Metinde genel bulut, çok sayıda müşterinin sağlayıcı altyapısını paylaştığı modeldir. Bu ders eşleştirmesine göre A: Genel Bulut. Teknik kavram olarak çok kiracılılık daha geniştir; sorunun ders cevabı ile kavramın bütün kullanım alanları ayrılmalıdır."
+      }
     },
     {
       "id": "BB-23V-12",
@@ -7322,7 +7395,7 @@
         "Sınırlı Kontrol",
         "Erişim Kolaylığı"
       ],
-      "answer": null,
+      "answer": 3,
       "sources": [
         {
           "file": "F13",
@@ -7331,8 +7404,8 @@
           "url": "kaynaklar/F13.jpeg"
         }
       ],
-      "reason": "Sınırlı kontrol dezavantajdır (beklenen D). Bulutun esnekliği sınırsız değildir; B mutlak ifadesi de doğru bir avantaj tanımı sayılmaz. Tasarruf ve zaman kazanımı iş yüküne bağlıdır.",
-      "warning": "B ve D nedeniyle tek doğru tartışmalı; vize varyantında E eklendi.",
+      "reason": "Metin tasarruf, sonsuz esneklik, zaman ve erişim kolaylığını avantaj; sınırlı kontrolü dezavantaj olarak sınıflandırıyor. Buna göre D: Sınırlı Kontrol.",
+      "warning": "",
       "mark": "Fotoğrafta D işaretli.",
       "course": "Bulut Bilişim",
       "incomplete": false,
@@ -7350,6 +7423,7 @@
         "Olumsuz kökü iki kez kontrol et."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.3 / 2.2 — fayda ve maliyet): Metnin sınav sınıflandırmasında tasarruf, zaman, esneklik ve yönetilebilirlik avantaj; sınırlı kontrol, satıcı kilidi ve uyumsuzluk yaratabilen güncellemeler risktir. Toplam maliyet karşılaştırması kullanım koşullarına göre yapılır.",
         "Bulut satın alınan kapasite yerine tüketilen hizmete odaklanmayı kolaylaştırır. Başlangıç donanım yatırımı azalabilir ve kapasite daha hızlı sağlanabilir. Ancak toplam maliyet yalnız sanal makine saatinden oluşmaz; veri aktarımı, depolama, işletim, destek ve geçiş maliyetleri de vardır.",
         "TCO, Total Cost of Ownership, toplam sahip olma maliyetidir. Bulut için de benzer biçimde bütün yaşam döngüsü giderleri karşılaştırılır. Kullanılmayan kaynakları açık bırakmak veya yüksek veri çıkış trafiği tasarrufu tersine çevirebilir. “Bulut her zaman ucuzdur” doğru değildir.",
         "Satıcı kilidi, uygulamanın/verinin belirli sağlayıcının arayüz ve hizmetlerine bağımlılığı nedeniyle başka yere geçişin zorlaşmasıdır. Açık biçimler, taşınabilir tasarım ve çıkış planı bunu azaltabilir; her özel hizmet kullanımı otomatik yanlış değildir. Yönetilen hizmetin sağladığı fayda ile taşınma maliyeti karşılaştırılır.",
@@ -7357,12 +7431,13 @@
         "Enerji tasarrufu, üretkenlik artışı ve maliyet düşüşü ekonomik sonuçlarla ilişkilidir. Karbon salımı azalması öncelikle çevresel sonuçtur ve enerji kaynağı/verimlilik gibi koşullara bağlıdır. Bireysel kullanım bir kullanıcı/kullanım türüdür; tek başına ekonomik sonuç değildir. Esneklik yararlıdır ama sınırsız kapasite veya sınırsız bütçe anlamına gelmez."
       ],
       "method": [
-        "İfade fayda mı, risk mi, kullanıcı türü mü, sınıflandır.",
-        "Tasarrufun hangi maliyet kaleminde oluştuğunu açıkla.",
-        "Mutlak iddiayı kota, bütçe ve iş yükü koşullarıyla sına.",
-        "Birden fazla sorunlu seçenek varsa tek doğruyu zorlamadan raporla."
+        "Olumsuz/olumlu kökü belirle.",
+        "Çalışma metnindeki Bölüm 1.3 — avantajlar/dezavantajlar bölümünün tanımıyla seçenekleri karşılaştır.",
+        "Metin tasarruf, sonsuz esneklik, zaman ve erişim kolaylığını avantaj; sınırlı kontrolü dezavantaj olarak sınıflandırıyor. Buna göre D: Sınırlı Kontrol.",
+        "Sınavda kullanılacak sonuç: D — Sınırlı Kontrol. Teknik kapsam açıklamasını bu cevapla karıştırma."
       ],
       "variations": [
+        "Aynı kavram olumlu kökle veya farklı seçenek sırasıyla sorulursa şık harfini değil tanımı izle.",
         "Sürekli ve sabit yükte bulut tasarrufu yoğunluğu değişen yüke göre farklı olabilir.",
         "Veri çıkış maliyeti ve taşınma yükü dahil karşılaştırma yapılabilir.",
         "Çevresel yararı ekonomik etkiyle ilişkilendiren soruda doğrudan/dolaylı ayrımını yap."
@@ -7373,39 +7448,40 @@
         "Satıcı kilidi ve sınırlı kontrolü örnekleyebilirim."
       ],
       "references": [
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "economy",
       "analysis": [
         {
           "meaning": "Kaynak/para tüketiminin uygun karşılaştırmaya göre azalması.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Sınırlı kontrol dezavantajdır (beklenen D). Bulutun esnekliği sınırsız değildir; B mutlak ifadesi de doğru bir avantaj tanımı sayılmaz. Tasarruf ve zaman kazanımı iş yüküne bağlıdır.",
-          "when": "Maliyet yararı sorulsa, toplam gider ve iş yükü koşuluyla uygun olabilir.",
-          "confusion": "Her senaryoda garanti ucuzluk sanılır."
+          "verdict": "Bu soruda seçilmez. Tasarruf metinde avantajdır; sınırlı kontrolle karıştırılmaz.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Tasarruf metinde avantajdır; sınırlı kontrolle karıştırılmaz.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Sınır yokmuş gibi ifade edilen kapasite esnekliği.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Sınırlı kontrol dezavantajdır (beklenen D). Bulutun esnekliği sınırsız değildir; B mutlak ifadesi de doğru bir avantaj tanımı sayılmaz. Tasarruf ve zaman kazanımı iş yüküne bağlıdır.",
-          "when": "Gerçek hizmetlerde kota/bütçe sınırları olduğundan mutlak doğru kurulamaz.",
-          "confusion": "Hızlı esneklik ile fiziksel olarak sınırsız kaynak eş tutulur."
+          "verdict": "Bu soruda seçilmez. Sınırsız esneklik nottaki avantaj adıdır; bu sınıflandırmada yanlış seçenek sayılmaz. Teknik kullanımda kota ve bütçe sınırları ayrıca vardır.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Sınırsız esneklik nottaki avantaj adıdır; bu sınıflandırmada yanlış seçenek sayılmaz. Teknik kullanımda kota ve bütçe sınırları ayrıca vardır.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Bağlama göre kaynak sağlama veya iş tamamlama süresi.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Sınırlı kontrol dezavantajdır (beklenen D). Bulutun esnekliği sınırsız değildir; B mutlak ifadesi de doğru bir avantaj tanımı sayılmaz. Tasarruf ve zaman kazanımı iş yüküne bağlıdır.",
-          "when": "Daha hızlı tedarik/iş yapma yararı açıklanmışsa uygun olabilir.",
-          "confusion": "Tek başına nicel süre tasarrufu kanıtı sanılır."
+          "verdict": "Bu soruda seçilmez. Zaman avantajı hızlı kaynak sağlama ve kurulumla ilgilidir; aranan dezavantaj değildir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Zaman avantajı hızlı kaynak sağlama ve kurulumla ilgilidir; aranan dezavantaj değildir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Müşterinin altyapı/platforma müdahale alanının kısıtlı olması.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Sınırlı kontrol dezavantajdır (beklenen D). Bulutun esnekliği sınırsız değildir; B mutlak ifadesi de doğru bir avantaj tanımı sayılmaz. Tasarruf ve zaman kazanımı iş yüküne bağlıdır.",
-          "when": "Bulut dezavantajı veya sorumluluk paylaşımı sorulsa uygun olur.",
-          "confusion": "Kontrol devrinin hiç işletim faydası sağlamadığı sanılır."
+          "verdict": "Doğru seçenek. Sınırlı kontrol, donanıma/altyapıya müdahalenin kısıtlı olmasıdır; metindeki dezavantajla doğrudan eşleşir.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Sınırlı kontrol, donanıma/altyapıya müdahalenin kısıtlı olmasıdır; metindeki dezavantajla doğrudan eşleşir.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         },
         {
           "meaning": "Hizmete ağ üzerinden farklı istemci/konumlardan erişebilme.",
-          "verdict": "Bu soruda kesin doğru/yanlış hükmü sınırlı: Sınırlı kontrol dezavantajdır (beklenen D). Bulutun esnekliği sınırsız değildir; B mutlak ifadesi de doğru bir avantaj tanımı sayılmaz. Tasarruf ve zaman kazanımı iş yüküne bağlıdır.",
-          "when": "Ağ erişimi veya erişim kolaylığı sorulsa uygun olur; yetkilendirme yine gerekir.",
-          "confusion": "İzinsiz herkese açık veri veya kesintisiz bağlantı garantisi sanılır."
+          "verdict": "Bu soruda seçilmez. Erişim kolaylığı, ağ üzerinden farklı yerlerden erişimdir; metinde avantajdır. Kesintisiz erişim garantisi olarak yorumlanmaz.",
+          "when": "Bu ifadenin uygun olduğu bağlam: Erişim kolaylığı, ağ üzerinden farklı yerlerden erişimdir; metinde avantajdır. Kesintisiz erişim garantisi olarak yorumlanmaz.",
+          "confusion": "Dersin sınıflandırması ile ifadenin bütün teknik bağlamlarda geçerli olduğunu varsaymak karıştırılmamalıdır."
         }
       ],
       "exercises": [
@@ -7499,7 +7575,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Lojistik ekibi — senaryo 38 yönetilen hizmetle işletim yükünü azaltıyor ama sürüm kontrolünü kısmen bırakıyor. Nasıl değerlendirmeli?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Bir tercih hem yarar hem sınırlama içerebilir.\nSonuç: İşletim faydası ile kontrol/taşınabilirlik riskini birlikte karşılaştırmalı."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.3 — avantajlar/dezavantajlar",
+        "status": "Çalışma metnine göre sınav cevabı",
+        "detail": "Metin tasarruf, sonsuz esneklik, zaman ve erişim kolaylığını avantaj; sınırlı kontrolü dezavantaj olarak sınıflandırıyor. Buna göre D: Sınırlı Kontrol."
+      }
     },
     {
       "id": "BB-23V-13",
@@ -7541,6 +7622,7 @@
         "“Birleştirme/bağlama” tek başına yeterli değil; hangi bulutların bağlandığına bak."
       ],
       "lesson": [
+        "Gönderdiğin çalışma metnine göre (Bölüm 1.2 / 2.3 / 3.2 — dağıtım modelleri): Genel bulut genel kullanıma açık paylaşımlı altyapıdır. Özel bulut tek kuruma tahsistir; kurum dışında da barındırılabilir. Hibrit farklı modelleri bağlar. Topluluk ortak gereksinimli kurumlara ayrılır.",
         "Dağıtım modeli, bulutun kimlerin kullanımına ayrıldığını ve farklı bulutların nasıl bir araya geldiğini anlatır. Hizmet modelinden farklı olarak burada “işletim sistemini kim yönetir?” değil, “altyapı kimin kullanımına açıktır?” sorusu öndedir.",
         "Genel bulut, genel kullanıma sunulan sağlayıcı altyapısıdır. Müşterinin verisi halka açık olmak zorunda değildir. Özel bulut tek bir kuruluşun özel kullanımına ayrılır. Özel bulut kuruluşun kendi binasında da üçüncü tarafın tesisinde de barındırılabilir; “özel” mutlaka “kurum binasında” demek değildir.",
         "Topluluk bulutu ortak güvenlik, görev veya uyum ihtiyaçları olan belirli kuruluşlar topluluğuna ayrılır. Herkesin kullanabildiği genel buluttan bu erişim sınırıyla ayrılır. Aynı fiziksel altyapıda birden çok kuruluş bulunması tek başına topluluk bulutu tanımı vermez.",
@@ -7564,7 +7646,8 @@
         "Çok kiracılılıktan tek başına dağıtım modeli çıkaramam."
       ],
       "references": [
-        "nist"
+        "nist",
+        "user-cloud-notes"
       ],
       "diagram": "deployment",
       "analysis": [
@@ -7690,7 +7773,12 @@
           "label": "Üretilmiş alıştırma",
           "solution": "Verilen: Araştırma merkezi — senaryo 39 dış bir tesiste yalnız kendine ayrılmış bulut işletiyor. En doğru yorum?\nİstenen: koşullara uyan kavram/sonuç.\nGerekçe: Özel kullanım hakkı ile fiziksel konum iki farklı ölçüttür.\nSonuç: Dışarıda barındırılan özel bulut olabilir."
         }
-      ]
+      ],
+      "noteBasis": {
+        "section": "Bölüm 1.2 / 2.3 / 3.2 — dağıtım modelleri",
+        "status": "Konu anlatımı desteklendi",
+        "detail": "Genel bulut genel kullanıma açık paylaşımlı altyapıdır. Özel bulut tek kuruma tahsistir; kurum dışında da barındırılabilir. Hibrit farklı modelleri bağlar. Topluluk ortak gereksinimli kurumlara ayrılır."
+      }
     },
     {
       "id": "BB-23V-14",
@@ -33680,6 +33768,18 @@
       "title": "statsmodels — regresyon sonuç parametreleri",
       "url": "https://www.statsmodels.org/v0.13.5/generated/statsmodels.regression.linear_model.RegressionResults.html",
       "use": "coef, t istatistiği ve p değerleri ayrımı."
+    },
+    {
+      "id": "user-cloud-notes",
+      "title": "Kullanıcının sağladığı Bulut Bilişim vize çalışma metni",
+      "url": "kaynaklar/bulut-calisma-notlari.txt",
+      "use": "01.11.2026 tarihinde kullanıcı tarafından yalnız vize kapsamı için esas alınması istendi. Özgün slayt veya resmî cevap anahtarı olduğu doğrulanmadı; metindeki [1]–[3] kaynakçaları verilmedi."
+    },
+    {
+      "id": "aws-quotas",
+      "title": "AWS EC2 — kaynak kotaları",
+      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html",
+      "use": "Notlardaki sınırsız esneklik ifadesinin uygulamada kota ve kapasite sınırlarıyla birlikte okunması."
     }
   ],
   "dataScienceGroups": {

@@ -2,6 +2,8 @@
 
 Türkçe, konu odaklı sınav çalışma sitesi. **Bulut Bilişim** ve **Veri Bilimi** ayrı ders bölümlerinde hazır.
 
+Bulut Bilişim vize çözümleri, 01.11.2026 tarihinde kullanıcı tarafından verilen vize çalışma metniyle karşılaştırıldı. 7/C, 8/A, 11/A ve 12/D bu metnin ders bağlamına göre netleştirildi. Metin ve soru bazlı karşılaştırma `kaynaklar/bulut-calisma-notlari.txt` ile `bulut-not-denetimi.json` dosyalarında bulunur. Final sorularına uygulanmadı; metnin karşılamadığı belirsizlikler korundu.
+
 - Bulut Bilişim: 65 özgün soru/varyant ve 325 çözümlü üretilmiş alıştırma.
 - Veri Bilimi: 94 özgün soru/varyant ve 470 çözümlü üretilmiş alıştırma.
 - Kaynak fotoğrafı, konu anlatımı, adım adım çözüm ve şık analizi.

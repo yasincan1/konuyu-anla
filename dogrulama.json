@@ -115,7 +115,7 @@
     }
   ],
   "checks": [
-    "53 dosyanın kaynak bağlantıları ve özgün şekil kırpımları mevcut",
+    "55 dosyanın kaynak bağlantıları ve özgün şekil kırpımları mevcut",
     "255 sınav/grup soru numarası bir kez eşlendi; tekrar fotoğrafları ayrı sayılmadı",
     "159 özgün soru/varyantın her birinde tam 5 alıştırma var; 8 okunamayan kayıtta üretim yapılmadı",
     "Soru ve alıştırma kimlikleri sabit ve benzersiz; bütün şıkların açıklaması ve geçerli cevap indisi var",
